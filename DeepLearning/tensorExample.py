@@ -1,30 +1,20 @@
+from __future__ import print_function
+
 import numpy as np
-import tensorflow as tf
 import tflearn
-import tflearn.datasets.mnist as mnist
+from tflearn.data_utils import load_csv
 
-trainX, trainY, testX, testY = mnist.load_data(one_hot=True)
+data, labels = load_csv('testAndGrades.csv', has_header=True, target_column=0, categorical_labels=True, n_classes=16)
 
-entradas=784
-capa1=128
-capa2=128
-clases=10
+# Build neural network
+net = tflearn.input_data(shape=[None, 3])
+net = tflearn.fully_connected(net, 15)
+net = tflearn.fully_connected(net, 15)
+net = tflearn.fully_connected(net, 16, activation='softmax')
+net = tflearn.regression(net)
 
-def crear_modelo():
-    tf.reset_default_graph()
-    red = tflearn.input_data([None, entradas])
-    red = tflearn.fully_connected(red, capa1, activation='ReLU')
-    red = tflearn.fully_connected(red, capa2, activation='ReLU')
-    red = tflearn.fully_connected(red, clases, activation='softmax')
-    red = tflearn.regression(red, optimizer='sgd', learning_rate=0.01, loss='categorical_crossentropy')
-    modelo = tflearn.DNN(red)
-    return modelo
+# Define model
+model = tflearn.DNN(net)
+# Start training (apply gradient descent algorithm)
+model.fit(data, labels, n_epoch=400, batch_size=1, validation_batch_size=3, show_metric=True)
 
-modelo = crear_modelo()
-
-modelo.fit(trainX, trainY, validation_set=0.1, show_metric=True, batch_size=500, n_epoch=100)
-
-predicciones = np.array(modelo.predict(testX)).argmax(axis=1)
-correctas = testY.argmax(axis=1)
-certeza = np.mean(predicciones == correctas, axis=0)
-print("La certeza es de: ", certeza)
