@@ -23,5 +23,13 @@ score = model.predict_label([[3,5,5]])
 score2 = model.predict([[3,5,5]])
 array=score[0]
 #print(score2)
-print("El estudiante puede aplicar al rango ", array[0])
 
+choices = { 
+        0: "El aspirante puede clasificar a los cursos 1, 2 y 3.",
+        1: "El aspirante puede clasificar a los cursos 4, 5 y 6.",
+        2: "El aspirante puede clasificar a los cursos 7, 8 y 9.", 
+        3: "El aspirante puede clasificar a los cursos 10, 11 y 12.", 
+        4: "El aspirante puede clasificar a los cursos 13, 14 y 15.",
+        5: "El aspirante puede clasificar a los cursos 16, 17 y cursos avanzados.",
+        }
+print(choices.get(array[0], 'default'))
