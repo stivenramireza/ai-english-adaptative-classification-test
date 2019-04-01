@@ -3,6 +3,7 @@ from __future__ import print_function
 import numpy as np
 import tflearn
 from tflearn.data_utils import load_csv
+import csv
 
 data, labels = load_csv('testAndGrades.csv', has_header=True, 
 target_column=0, categorical_labels=True, n_classes=6)
@@ -20,12 +21,12 @@ model = tflearn.DNN(net)
 model.fit(data, labels, n_epoch=100, batch_size=16, show_metric=True)
 
 #Prueba del modelo
+print("Prueba en tiempo real")
 calificacionFac = input("Ingrese la calificacion del estudiante en las preguntas de nivel facil: ")
 calificacionMed = input("Ingrese la calificacion del estudiante en las preguntas de nivel intermedio: ")
 calificacionDif = input("Ingrese la calificacion del estudiante en las preguntas de nivel avanzado: ")
 score = model.predict_label([[calificacionFac,calificacionMed,calificacionDif]])
 array=score[0]
-
 
 choices = { 
         0: "El aspirante puede clasificar a los cursos 1, 2 y 3.",
@@ -36,3 +37,22 @@ choices = {
         5: "El aspirante puede clasificar a los cursos 16, 17 y cursos avanzados.",
         }
 print(choices.get(array[0], 'default'))
+print("")
+
+
+print("Realizando pruebas en lotes, utilizando el archivo de entrada test.csv")
+with open("test.csv") as f:
+    reader = csv.reader(f, delimiter=",")
+    count = 0
+    correctas = 0
+    for row in reader:
+        print("se espera: ",row[0])
+        score = model.predict_label([[row[1],row[2],row[3]]])
+        array = score[0]
+        print("Se obtuvo: " ,array[0])
+        if (int(array[0]) == int(row[0])):
+            correctas = correctas + 1
+        count = count + 1
+        print("----")
+    print (count, " Registros probados.")
+    print (correctas, " Pruebas correctas.")
