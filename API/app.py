@@ -29,11 +29,11 @@ class HelloWorld(Resource):
 class PreStart(Resource):
     def get(self):
         _cat = cat.CAT()
-        theta = np.random.normal(loc=4.7, scale=1.3)
+        theta = np.random.uniform(low=-6, high=6)
         n_item = np.random.randint(_cat.get_dataset_size() - 1)
         idx = np.random.randint(2)
         response = [True, False][idx]
-        n_item, quest, responses, _ = _cat.ask(n_item, response)
+        n_item, quest, responses, _ = _cat.ask(n_item, response, True, theta)
         print((n_item, quest))
         data = {
             'question': {
