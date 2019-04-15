@@ -12,6 +12,7 @@ target_column=0, categorical_labels=True, n_classes=10)
 net = tflearn.input_data(shape=[None, 3])
 net = tflearn.fully_connected(net, 32)
 net = tflearn.fully_connected(net, 32)
+net = tflearn.fully_connected(net, 16)
 net = tflearn.fully_connected(net, 10, activation='softmax')
 net = tflearn.regression(net)
 
