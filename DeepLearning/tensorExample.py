@@ -8,11 +8,10 @@ import csv
 data, labels = load_csv('testAndGrades.csv', has_header=True, 
 target_column=0, categorical_labels=True, n_classes=10)
 
-# Construcción de la red neuronal. Definiendo 3 entradas y 6 posibles salidas
+# Construcción de la red neuronal. Definiendo 3 entradas y 10 posibles salidas
 net = tflearn.input_data(shape=[None, 3])
 net = tflearn.fully_connected(net, 32)
 net = tflearn.fully_connected(net, 32)
-net = tflearn.fully_connected(net, 16)
 net = tflearn.fully_connected(net, 10, activation='softmax')
 net = tflearn.regression(net)
 
@@ -58,6 +57,7 @@ with open("test.csv") as f:
         if (int(array[0]) == int(row[0])):
             correctas = correctas + 1
         count = count + 1
+        print (count, " iteración.")
         print("----")
     print (count, " Registros probados.")
     print (correctas, " Pruebas correctas.")
