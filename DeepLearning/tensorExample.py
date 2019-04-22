@@ -57,7 +57,6 @@ with open("test.csv") as f:
         if (int(array[0]) == int(row[0])):
             correctas = correctas + 1
         count = count + 1
-        print (count, " iteración.")
         print("----")
     print (count, " Registros probados.")
     print (correctas, " Pruebas correctas.")
