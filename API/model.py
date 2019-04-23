@@ -12,8 +12,8 @@ class Model:
         if(data == None or labels == None):
             self.__load_data()
         self.model = None
-        self.MAX_EPOCHS = 30
-        self.BATCH_SIZE = 1
+        self.MAX_EPOCHS = 200
+        self.BATCH_SIZE = 16
         self.model = self.__build_model()
     def __load_data(self, path = './data/testX.csv'):
         self.data, self.labels = load_csv(path, has_header=True, target_column=0, categorical_labels=True, n_classes=6)
@@ -22,7 +22,7 @@ class Model:
         nn = input_data(shape=[None, 3])
         nn = fully_connected(nn, 32)
         nn = fully_connected(nn, 32)
-        nn = fully_connected(nn, 6, activation='softplus')
+        nn = fully_connected(nn, 10, activation='softmax')
         nn = regression(nn)
         model = DNN(nn)
         return model

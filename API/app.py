@@ -84,26 +84,41 @@ class NextQuestion(Resource):
             }
         }
         return data
+
+
 @api.route('/test/statistics')
 class Statistics(Resource):
-    def get(self):
+    def post(self):
         parser = reqparse.RequestParser()
-        parser.add_argument('', type=int, required=True, help='lev1')
-        _, __, ___ = _cat.get_statistics()
+        parser.add_argument('c_part1', type=float, required=True, help='c_part1 cannot be converted')
+        parser.add_argument('c_part2', type=float, required=True, help='c_part2 cannot be converted')
+        parser.add_argument('c_part3', type=float, required=True, help='c_part3 id cannot be converted')
+        args = parser.parse_args()
+        c_part1, c_part2, c_part3 = args['c_part1'], args['c_part2'], args['c_part3']
+        final_grade = np.sum([c_part1*.2, c_part2*.3, c_part3*.5])
         return {
-            'part1': _,
-            'part2': __,
-            'part3': ___
+            "student": {
+                "final_grade": final_grade
+            }
         }
 @api.route('/test/statistics/level')
 class StatisticsLevel(Resource):
     def post(self):
-
-        _, __, ___ = _cat.get_statistics()
+        parser = reqparse.RequestParser()
+        parser.add_argument('c_part1', type=float, required=True, help='c_part1 cannot be converted')
+        parser.add_argument('c_part2', type=float, required=True, help='c_part2 cannot be converted')
+        parser.add_argument('c_part3', type=float, required=True, help='c_part3 id cannot be converted')
+        args = parser.parse_args()
+        c_part1, c_part2, c_part3 = args['c_part1'], args['c_part2'], args['c_part3']
+        level = _model.predict([[c_part1, c_part2, c_part3]])
+        print(level[0])
         return {
-            'level': _model.predict(np.array([[_, __, ___]]))
+            "student": {
+                "level": int(level[0])
+            }
         }
 
 if __name__ == "__main__":
     _model.load_model()
+    print(_model.predict([[2.5, 3.7, 4]]))
     app.run(debug=True, port=5001, host='0.0.0.0')
