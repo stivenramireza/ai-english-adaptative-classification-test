@@ -19,6 +19,7 @@ net = tflearn.regression(net)
 model = tflearn.DNN(net)
 # Inicio del entrenamiento del modelo
 model.fit(data, labels, n_epoch=200, batch_size=16, show_metric=True)
+model.save('./nnmodel.tflearn')
 
 #Prueba del modelo
 print("Prueba en tiempo real")
