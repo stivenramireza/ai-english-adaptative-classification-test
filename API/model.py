@@ -4,7 +4,7 @@ from tflearn import fully_connected
 from tflearn import regression
 from tflearn import DNN
 from tflearn.data_utils import load_csv
-
+import tensorflow as tf
 class Model:
     def __init__(self, data=None, labels=None):
         self.data = data
@@ -15,10 +15,11 @@ class Model:
         self.MAX_EPOCHS = 200
         self.BATCH_SIZE = 16
         self.model = self.__build_model()
-    def __load_data(self, path = './data/testX.csv'):
-        self.data, self.labels = load_csv(path, has_header=True, target_column=0, categorical_labels=True, n_classes=6)
+    def __load_data(self, path = './data/testAndGrades.csv'):
+        self.data, self.labels = load_csv(path, has_header=True, target_column=0, categorical_labels=True, n_classes=10)
         return self.data, self.labels
     def __build_model(self):
+        tf.reset_default_graph()
         nn = input_data(shape=[None, 3])
         nn = fully_connected(nn, 32)
         nn = fully_connected(nn, 32)
