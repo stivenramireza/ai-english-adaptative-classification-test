@@ -1,0 +1,433 @@
+,PREGUNTA,Parte,Dificultad,OPCION_CORRECTA,TEXTO,Discriminacion,_,__
+0,"A: A storm was brewing. Nonetheless, the fisherman still went out to the sea.<br>B: ___________________________",3.0,-0.6599869007,S,a) I can&#8217;t believe he was that stupid!,1.0,0.0,0.0
+3,_____________ a few bananas and a few apples in the fruit bowl.,1.0,0.7581313247,N,a) They are,1.0,0.0,0.0
+6,"After what happened the last time, ____________________",1.0,1.3946877519999998,N,c)  you  should no trust him again.,1.0,0.0,0.0
+9,A good driver _____________,1.0,0.4182093396,S,c) shouldn&#146;t exceed the speed limit.,1.0,0.0,0.0
+12,"A: Has Susan decided about college yet?<br>B: Yes,  I spoke to her last night. ________ to New York.<br>",1.0,1.68700144,N,c) She goes,1.0,0.0,0.0
+15,A: Here you go Mr. Cavendish. We&#146;ve finished fixing your windshield. That&#146;ll be $120.00.<br>B:______________________________,3.0,-0.09125506483,N,c) Is it O.K. If we go to the wind mill?,1.0,0.0,0.0
+18,A: I&#146;m starving.<br>B: Maybe we ought to ________________.,3.0,2.7843770130000003,S,b) have some hamburgers brought.,1.0,0.0,0.0
+21,"A: Instead of going to the cinema, we went to the theatre.<br>B:_____________________________",3.0,1.906120513,S,b) So how was the play?,1.0,0.0,0.0
+24,A: Is she free for lunch tomorrow?<br>B: I think  ______ tennis with Tatiana.,1.0,0.5477533604,S,c) she&#146;ll play,1.0,0.0,0.0
+27,A: It&#146;s starting to rain.<br>B: Don&#146;t worry. ________ you my umbrella.,1.0,-0.047557788539999986,N,c) I lent,1.0,0.0,0.0
+30,A: I want you to leave the keys at Mr. Peterson&#146;s.<br>B: _______________________________,3.0,0.467222486,N,c) I don&#146;t know what kind of keys he has.,1.0,0.0,0.0
+33,All this tragedy __________________  if we had followed the warnings.,3.0,-3.050503059,N,c) could be prevented,1.0,0.0,0.0
+36,A: look! That house always looks abandoned.<br>B:_______________________________,3.0,1.063036913,N,c) I wonder why It looks at us.,1.0,0.0,0.0
+39,______________ a lot of traffic in Bogota.,1.0,2.014216057,N,c) It is,1.0,0.0,0.0
+42,"Although Jane&#146;s boss _______ to persuade her to stay with the company, she _______ her resignation.",3.0,0.4387326272,N,c) tried . . . already submitted,1.0,0.0,0.0
+45,"Although ________of the lawn is open to the sun, there are ________of shade trees to make it comfortable.",3.0,0.1219100386,N,c) enough / many,1.0,0.0,0.0
+48,"Although there are _______brilliant students in this state, only _______will remain in the state after graduation.",3.0,1.461718085,N,c) enough / several,1.0,0.0,0.0
+51,Angela and Carlos _____________ at a party when they were in college.,1.0,0.5937246393,N,c) were meeting,1.0,0.0,0.0
+54,"A: Nice carpet.<br>B: Thanks, I _____________  by professionals.<br>",3.0,2.365773549,N,a) got  it lay,1.0,0.0,0.0
+57,"A: No, This is Carla. I&#146;m sorry, Jenny isn&#146;t here at the moment.<br><br>B: ____________________________",3.0,-1.219802638,N,c) Could you tell him?,1.0,0.0,0.0
+60,_______________ anyone here who wants to volunteer?,1.0,0.8908140999999999,S,c) Is there,1.0,0.0,0.0
+63,_______________ any public transportation in Los Angeles?<br><br>,1.0,1.200579512,S,a) Is there,1.0,0.0,0.0
+66,_______________ any space to park around here?,1.0,2.89401042,N,c) Does it have,1.0,0.0,0.0
+69,"As Yoko __________lunch, Mari and Junko ____________.",2.0,-1.861614299,S,c) was eating/ were studying,1.0,0.0,0.0
+72,"At 96 years old, Kirk Douglas ____________________ in any movie this summer.",1.0,1.290275562,N,b) is no working,1.0,0.0,0.0
+75,A terrible accident _________________ by the nuclear plant.,3.0,1.600115439,S,c) has been caused,1.0,0.0,0.0
+78,At five o&#146;clock it __________heavily.,2.0,1.044978347,S,a) was snowing,1.0,0.0,0.0
+81,A tremendous amount of farmland ________   to relieve overpopulation in cities pretty soon.,3.0,0.2934493679,N,c) will being occupied,1.0,0.0,0.0
+84,"A: We have plenty of money and workers; thus, we hope to finish the house remodelling soon.<br>B:______________________________________________________",3.0,0.2519423304,S,b) I can&#146;t wait to move back in.,1.0,0.0,0.0
+87,A: What time does the Math class start tomorrow?<br>B: ________ at two-thirty.,1.0,3.954042473,S,c) It&#146;ll start,1.0,0.0,0.0
+90,"A: Write my name properly, please.<br>B:So  _____ more slowly, please.",1.0,-0.2717669732,S,c) can you spell it,1.0,0.0,0.0
+93,"A: Your hair looks awful.<br>B: I know, I have to_______________.<br>",3.0,2.594981883,S,c) get someone to brush it.,1.0,0.0,0.0
+96,Bill&#146;s in big trouble. He _______ the previous month&#146;s rent when he _______ out of his apartment. ,3.0,2.326665576,N,c) hadn&#146;t paid . . . had moved,1.0,0.0,0.0
+99,Bob _______ in several other states when he _______ to move to California.,3.0,4.18214324,S,c) had worked . . . decided,1.0,0.0,0.0
+102,"By the time Hussein was overthrown, many Iraqis ___________________________ .",3.0,1.402696502,N,a) had been torture and kidnap,1.0,0.0,0.0
+105,Can you ask Ann _________________ my sweater yesterday?,3.0,1.791798745,S,c) where she put,1.0,0.0,0.0
+108,Can you ask John ______________________ to the airport?,3.0,0.7599759693000001,N,c) whether he drives me,1.0,0.0,0.0
+111,"Can you find your way to the hotel? Yes, I ___.",1.0,0.9073806037,S,c) can,1.0,0.0,0.0
+114,"Can you fix my car today? Yes, I ___. ",1.0,0.2642850149,S,c) can,1.0,0.0,0.0
+117,Can you tell me _____________  a good hamburger?,3.0,3.341103693,N,c) where are you buying,1.0,0.0,0.0
+120,Can you tell me what time ____________________ ?,3.0,0.2827216168,S,c) the last bus leaves,1.0,0.0,0.0
+123,Car blast in Baghdad caused _______ casualities.,3.0,1.594731338,N,c) a little,1.0,0.0,0.0
+126,"Carlas&#146;s children, ______.",3.0,-0.6392126263,N,"c) whose graduated from college, came home for her eightieth birthday. ",1.0,0.0,0.0
+129,"Charlie, Roger and Joe ___________ roommates.",1.0,-1.173526567,S,c) are,1.0,0.0,0.0
+132,Choose that the speaker would say next.<br><br>The baby was sleeping when the phone rang.,2.0,-0.5365968428,N,c) Let's put the telephone next to her crib so that she can continue sleeping.,1.0,0.0,0.0
+135,Choose the best response to the statement.<br><br>Are we required to pass the exam prior to admittance in the program?,3.0,2.438773718,N,c) The admission test was very hard.,1.0,0.0,0.0
+138,"Choose the best response to the statement. <br><br>""By the time you arrived, many decisions had been made.""",3.0,2.295232877,N,"c) ""Great. Let&#146;s get started.""",1.0,0.0,0.0
+141,"Choose the best response to the statement.<br><br>Don&#146;t worry, The winner should be announced any time soon.",3.0,0.5355281971,N,a) I&#146;m glad he won.,1.0,0.0,0.0
+144,"Choose the best response to the statement.<br><br>I was raised in New York, but  I&#146;m a Los Angeles native.",3.0,-2.501370086,N,c) Raising children in New York  must be hard these days.,1.0,0.0,0.0
+147,Choose the best response to the statement.<br><br>Rain forests and trees in the world are being burned and cut down.,3.0,0.5746694897,N,a) That&#146;s going to change the world into a better place.,1.0,0.0,0.0
+150,"Choose the best response to the statement.<br><br>When I was in the army, I got used to following orders.",3.0,0.3745829669,N,c) No wonder you have a problem with authority.,1.0,0.0,0.0
+153,Choose the most appropiate response to this statement.<br><br>We&#146;ll never be able to be on time to work. What shall we do?,2.0,-1.581124722,N,c) Could you repeat that please? It&#146;s a bad line and I couldn&#146;t catch what you were saying.,1.0,0.0,0.0
+156,"Choose the most appropriate ending to the statement.<br><br>During the last decade, people have changed their eating habits to healthier ones.",2.0,-2.416132579,N,a) They have been consuming more junk food.,1.0,0.0,0.0
+159,Choose the most appropriate ending to the statement.<br><br>I&#146;ve been living here in Colombia since 1990.,2.0,3.852190891,N,c) But I have been thinking about spending a few days here.,1.0,0.0,0.0
+162,Choose the most appropriate ending to the statement.<br><br>I can smell the food.,1.0,0.8459263639,N,b) Mom is going to do the dishes,1.0,0.0,0.0
+165,"Choose the most appropriate ending to the statement.<br><br>If he doesn&#146;t accept our offer,",2.0,0.0005487020991000001,N,c) he will agree with the price.,1.0,0.0,0.0
+168,"Choose the most appropriate ending to the statement.<br><br>If I lost my job,",2.0,1.7325541219999998,N,c) I&#146;d go to lost and found.,1.0,0.0,0.0
+171,"Choose the most appropriate ending to the statement.<br><br>If I see you standing around the coffee machine talking again,",2.0,2.9093148060000003,N,c) we&#146;ll have to promote you.,1.0,0.0,0.0
+174,"Choose the most appropriate ending to the statement.<br><br>If I spoke Japanese as well as you do,",2.0,3.204733868,N,b) we could ask someone to translate this document.,1.0,0.0,0.0
+177,"Choose the most appropriate ending to the statement.<br><br>If I were in your position,",2.0,0.13223164939999998,N,c) we would straighten up.,1.0,0.0,0.0
+180,"Choose the most appropriate ending to the statement.<br><br>If Nick doesn&#146;t pay attention in class,",2.0,1.5570642609999998,N,c) his parents will be very proud of him.,1.0,0.0,0.0
+183,"Choose the most appropriate ending to the statement.<br><br>If sales don&#146;t improve soon,",2.0,1.213438732,N,c) profits might increase.,1.0,0.0,0.0
+186,"Choose the most appropriate ending to the statement.<br><br>If the company opened an office in Tokyo,",2.0,2.096547597,N,"c) Jackie, who works for you, is in Japan.",1.0,0.0,0.0
+189,"Choose the most appropriate ending to the statement.<br><br>If the report isn&#146;t on my desk tomorrow morning,",2.0,1.4571167930000002,S,a) you&#146;ll be in big trouble.,1.0,0.0,0.0
+192,"Choose the most appropriate ending to the statement.<br><br>If we controlled our expenses a bit better,",2.0,0.7744970229000001,N,c) I would become a compulsive shopper instead.,1.0,0.0,0.0
+195,"Choose the most appropriate ending to the statement.<br><br>If we spent more on Research and Development,",2.0,2.112264009,N,a) I&#146;d have more budget for Research and Development.,1.0,0.0,0.0
+198,"Choose the most appropriate ending to the statement.<br><br>If you don&#146;t listen to your parents' advice,",2.0,-0.1727266911,N,b) you'll have to talk to somebody else.,1.0,0.0,0.0
+201,"Choose the most appropriate ending to the statement.<br><br>If you give me a 10 % discount,",2.0,1.383838159,N,c) I&#146;ll be the salesclerk of the month.,1.0,0.0,0.0
+204,Choose the most appropriate ending to the statement.<br><br>If you had a job,2.0,3.263371088,N,c) you&#146;d have all the free time in the world,1.0,0.0,0.0
+207,"Choose the most appropriate ending to the statement.<br><br>If you invested some time into learning how the Internet works,",2.0,0.9151833626,N,c) we would be behind technologically.,1.0,0.0,0.0
+210,"Choose the most appropriate ending to the statement.<br><br>If you sell more than you did last year,",2.0,0.8096226287,N,c) you&#146;ll be in big trouble with your boss.,1.0,0.0,0.0
+213,"Choose the most appropriate ending to the statement.<br><br>If you spent more time on your own problems and a bit less on mine,",2.0,0.7352934973999999,N,c) your problems would be mine too.,1.0,0.0,0.0
+216,"Choose the most appropriate ending to the statement.<br><br>If you spoke less and listened more,",2.0,0.6956738449,N,a) you&#146;d have a larger collection of films and records.,1.0,0.0,0.0
+219,"Choose the most appropriate ending to the statement.<br><br>I have been living here for the last six months,",2.0,-1.401970007,N,c) and I&#146;ve thinking about moving here for a few days.,1.0,0.0,0.0
+222,Choose the most appropriate ending to the statement.<br><br>I love soccer. Manchester United is on television this evening.,1.0,0.989692276,S,a) I&#146;m going to watch the match,1.0,0.0,0.0
+225,Choose the most appropriate ending to the statement.<br><br>I miss having my own transportation; _______________.,2.0,0.5947027886999999,N,b) I really need to get rid of this old car. ,1.0,0.0,0.0
+228,Choose the most appropriate ending to the statement.<br><br>I won&#146;t make it on time.,2.0,0.3309625113,S,c) My blind date has been waiting for at least ten minutes now.,1.0,0.0,0.0
+231,Choose the most appropriate ending to the statement.<br><br>Look at those clouds.,1.0,-0.4389115409000001,N,c) It's going to be fall soon.,1.0,0.0,0.0
+234,Choose the most appropriate ending to the statement.<br><br>Monica will visit her parents on vacation,2.0,0.8804413483,S,a) if  she gets a raise.,1.0,0.0,0.0
+237,Choose the most appropriate ending to the statement.<br><br>My boss received an urgent call. He asked me to ...,3.0,1.29952887,S,c) have all his meetings cancelled.,1.0,0.0,0.0
+240,"Choose the most appropriate ending to the statement.<br><br>My tire was flat, so ...",3.0,0.2646411063,N,c) I got checked because I was tired.,1.0,0.0,0.0
+243,Choose the most appropriate ending to the statement.<br><br>The train is in the station. The guard is calling the passangers.,1.0,1.194368412,N,c) They&#146;re going to fall off soon.,1.0,0.0,0.0
+246,"Choose the most appropriate ending to the statement.<br><br>They didn&#146;t feel like eating out last night, __________________.",2.0,1.438217604,N,"c) therefore, they went to a restaurant. ",1.0,0.0,0.0
+249,"Choose the most appropriate ending to the statement.<br><br>Tony asked me if I could have his watch repaired, so ...",3.0,1.1055817609999998,S,a) I had to have the watch fixed.,1.0,0.0,0.0
+252,"Choose the most appropriate ending to the statement.<br><br>Unless you do something really bad,",2.0,-2.176876596,S,a) you don&#146;t have to worry about your job. It&#146;ll be quite safe.,1.0,0.0,0.0
+255,Choose the most appropriate ending to this statement.<br><br>John is standing by the bath. The water is running.,1.0,2.242616772,S,c) I think he&#146;s going to take a shower.,1.0,0.0,0.0
+258,Choose the most appropriate ending to this statement.<br><br>Look at the lion running after the zebra.,1.0,0.9960207014,S,c) I think it&#146;s going to eat it.,1.0,0.0,0.0
+261,Choose the most appropriate ending to this statement.<br><br>The man is walking into the bank with a gun.,1.0,2.801969317,S,a) He&#146;s going to rob it.,1.0,0.0,0.0
+264,Choose the most appropriate ending to this statement.<br><br>The plane&#146;s engine is on fire!,1.0,2.103646775,N,a) I think it&#146;s going to leave.,1.0,0.0,0.0
+267,Choose the most appropriate response.<br><br>Did you hear the news? Peter was taking a walk last night when he got robbed.,2.0,-0.3734158655,N,b) I never watch the news.,1.0,0.0,0.0
+270,Choose the most appropriate response to this question .<br><br>Are there any posters on your bedroom walls?,1.0,0.8202094061,N,c) Lots of people have posters on their walls.,1.0,0.0,0.0
+273,Choose the most appropriate response to this question.<br><br>Are there many people at the party?,1.0,0.858881565,N,"c) Yes, take some before they're finished.",1.0,0.0,0.0
+276,Choose the most appropriate response to this question.<br><br>Are they nice people?,1.0,1.945369098,N,"c) No, they&#146;re in the living room.",1.0,0.0,0.0
+279,Choose the most appropriate response to this question.<br><br>Are you on a diet? You look terrific!,1.0,0.9476768711,N,c) I know! I can&#146;t help eating ice cream.,1.0,0.0,0.0
+282,Choose the most appropriate response to this question.<br><br>Are you quite sure you understand what to do?,2.0,1.160664256,N,a) I&#146;m not sure you understand.,1.0,0.0,0.0
+285,Choose the most appropriate response to this question.<br><br>Are your friends here tonight?,1.0,1.088959443,N,"a) Yes, they are away on vacation.",1.0,0.0,0.0
+288,Choose the most appropriate response to this question.<br><br>Could somebody answer the phone?,1.0,0.5735185264,S,"c) Sure, I&#146;ll get it.",1.0,0.0,0.0
+291,Choose the most appropriate response to this question.<br><br>Did you ask Jose Suarez to call back?,1.0,0.17298828510000006,S,"b) Yes, I did. Can you pass me the phone?",1.0,0.0,0.0
+294,Choose the most appropriate response to this question.<br><br>Does John often have pancakes for breakfast?,1.0,3.8044056,N,"c) Yes, He loves it, especially barbecued or baked.",1.0,0.0,0.0
+297,Choose the most appropriate response to this question.<br><br>Does Richard know if Mary's coming?,1.0,2.44543094,N,c) I don't know if he's coming or not.,1.0,0.0,0.0
+300,Choose the most appropriate response to this question.<br><br>Do you know if you got the job?,1.0,1.953414027,N,c) I&#146;ll probably tell him tomorrow. ,1.0,0.0,0.0
+303,Choose the most appropriate response to this question.<br><br>Do you mind taking a picture of me and my fiancé?,2.0,-0.3892465999000001,N,"c) Of course, but make up your mind, the pictures or my girlfriend.",1.0,0.0,0.0
+306,Choose the most appropriate response to this question.<br><br>Do you recall going to the prom back in high school?,2.0,-0.1394260762,S,a) how will I ever forget?  I was the queen.,1.0,0.0,0.0
+309,Choose the most appropriate response to this question.<br><br>Harry called? Why didn&squo;t you tell me?,1.0,-0.1087798424,N,c) I&#146;m sorry. I didn&#146;t know it was confidential.,1.0,0.0,0.0
+312,Choose the most appropriate response to this question.<br><br>How did you get to work this morning?,1.0,2.840941842,N,c) I worked from 9:00 a.m. 5:00 p.m.,1.0,0.0,0.0
+315,Choose the most appropriate response to this question.<br><br>How does this coffee machine work?,1.0,1.852230242,N,b) Take it to the repair shop.,1.0,0.0,0.0
+318,Choose the most appropriate response to this question<br><br>How do you open this door?,1.0,1.20883874,S,b) Push really hard.,1.0,0.0,0.0
+321,Choose the most appropriate response to this question.<br><br>How long did he stay?,1.0,1.34592186,N,c) He stayed at the hotel on Main Street.,1.0,0.0,0.0
+324,Choose the most appropriate response to this question.<br><br>How often do you wash the dishes after dinner?,1.0,1.108380332,N,c) Of course! I love doing the dishes.<br>,1.0,0.0,0.0
+327,Choose the most appropriate response to this question.<br><br>I&#146;m not happy with the work Michael is producing.,1.0,2.229209668,S,c)I´ll talk to him about it.,1.0,0.0,0.0
+330,Choose the most appropriate response to this question.<br><br>I have been waiting for you for the last two hours! Where have you been?,2.0,0.6359220281,N,b) I'm at the library. I've been reading a film review.,1.0,0.0,0.0
+333,Choose the most appropriate response to this question.<br><br>I'm here in college. Where are you?   ,1.0,-3.682106924,S,b) I&#146;m right next to you.,1.0,0.0,0.0
+336,Choose the most appropriate response to this question.<br><br>Is it true that the bride was stood up?,3.0,0.3922612451,S,"c) Yeah, That guy must have changed his mind the last minute.",1.0,0.0,0.0
+339,Choose the most appropriate response to this question.<br><br>Is Michelle at home now?,1.0,3.55544585,N,"b)Yes, they are. Let me call them.",1.0,0.0,0.0
+342,"Choose the most appropriate response to this question<br><br>Is the music disturbing you, Mr. Dylan?",1.0,-0.9065315498,N,"c) Yes, throw it in the garbage please.",1.0,0.0,0.0
+345,Choose the most appropriate response to this question .<br><br>Is there any coffee left?,1.0,1.340754521,N,"c) Yes, it left at 3:00 p.m.",1.0,0.0,0.0
+348,Choose the most appropriate response to this question.<br><br>Is there any space in the parking lot?,1.0,1.56081297,N,"a) Yes, there are a lot of parks and cars in the city.",1.0,0.0,0.0
+351,"Choose the most appropriate response to this question.<br><br>I was offered a job in Indonesia, but I'm confused. Should I take it?",1.0,1.48987209,N,"c) Well, I think they should offer you a job there.",1.0,0.0,0.0
+354,Choose the most appropriate response to this question.<br><br>My car&#146;s broken down. Can you help?,1.0,1.953251184,N,"c)No, thanks, I think I'll take the bus.",1.0,0.0,0.0
+357,Choose the most appropriate response to this question.<br><br>What time did the meeting finish?,1.0,1.609839816,N,c) He didn&#146;t say exactly but he said it would be late afternoon.,1.0,0.0,0.0
+360,Choose the most appropriate response to this question.<br><br>What time did you get up this morning?,1.0,-0.10131356,N,c) It was time to have breakfast and go to work.,1.0,0.0,0.0
+363,Choose the most appropriate response to this question.<br><br>What time will they arrive?,1.0,4.182893424,N,c) It is 2:00 PM.,1.0,0.0,0.0
+366,Choose the most appropriate response to this question.<br><br>What time will you come back to the office?,1.0,-1.412510937,N,c) I think I&#146;ll take a siesta.,1.0,0.0,0.0
+369,Choose the most appropriate response to this question.<br><br>What will you do after work?,1.0,-1.774752,N,c) I´ll type this document before living.,1.0,0.0,0.0
+372,Choose the most appropriate response to this question.<br><br>When did she arrive?,1.0,4.374236818,S,"c) On Tuesday, I think.",1.0,0.0,0.0
+375,Choose the most appropriate response to this question.<br><br>Where are you going next weekend?,1.0,-0.6130064647,N,"c) Yes, I&#146;ll put my feet up and read a good book.",1.0,0.0,0.0
+378,Choose the most appropriate response to this question.<br><br>Where did you buy that  computer?,1.0,1.1843950559999998,N,c) We bought it like two years ago.,1.0,0.0,0.0
+381,Choose the most appropriate response to this question.<br><br>Where did you stay the last time you went to London?,1.0,0.5632173908,N,c) At least fifteen minutes.,1.0,0.0,0.0
+384,Choose the most appropriate response to this question.<br><br>Where's the book I lent you?,1.0,2.5459776030000003,N,"c)No, it isn&#146;t.",1.0,0.0,0.0
+387,Choose the most appropriate response to this question.<br><br>Which train do you think I should take?,1.0,3.193266228,N,c) Buy the most convenient.,1.0,0.0,0.0
+390,Choose the most appropriate response to this question<br><br>Who can I talk to about the new product?,1.0,2.267576359,N,"c) Yes, I love to talk about the new product.",1.0,0.0,0.0
+393,Choose the most appropriate response to this question.<br><br>Why did you tell him that?,1.0,3.642553274,N,c) He wanted me to spell it for him.,1.0,0.0,0.0
+396,Choose the most appropriate response to this question.<br><br>Will you get married one day?,1.0,3.122826287,N,c) People get married every day.,1.0,0.0,0.0
+399,Choose the most appropriate response to this question.<br><br>You are totally lost!,1.0,0.1889167103,N,b) That&#146;s what you should do.,1.0,0.0,0.0
+402,Choose the most appropriate response to this sentence.<br><br>Do you think the company's annual report was the most informative to date?,2.0,0.9075859252,N,c) How much information will we need for the report?,1.0,0.0,0.0
+405,Choose the most appropriate response to this sentence.<br><br>Edward is the better of the  twins at geometry.,2.0,-0.4324935067,N,c) That&#146;s incorrect! He is the best of the twins.,1.0,0.0,0.0
+408,Choose the most appropriate response to this sentence.<br><br>I'm not sure whether the Magdalena is as long as the Danube.,2.0,0.8651014129000001,S,"a) Keep studying your geography, you&#146;ll discover amazing answers to questions like that one.",1.0,0.0,0.0
+411,Choose the most appropriate response to this statement .<br><br>Andrew needs to speak German by the end of the year.,1.0,-0.9609003824,N,c) He should invite his German friend to stay after Christmas.,1.0,0.0,0.0
+414,Choose the most appropriate response to this statement.<br><br><br>What happened here? This is awful!,2.0,1.870569047,S,c) Someone has broken in!,1.0,0.0,0.0
+417,Choose the most appropriate response to this statement .<br><br>Camberra  is one of the most important cities of Australia.,1.0,-0.02153557671,S,b) Is it? ,1.0,0.0,0.0
+420,Choose the most appropriate response to this statement.<br><br>Can you cook?,1.0,-0.6079525272,S,"c) Not very well, only fast food.",1.0,0.0,0.0
+423,Choose the most appropriate response to this statement.<br><br>Can you play tennis?,1.0,1.06354992,N,a) I love those kinds of shoes.,1.0,0.0,0.0
+426,Choose the most appropriate response to this statement.<br><br>Can you ride a bike?,1.0,-0.02831093937,N,"c) Of course, I'm an excellent runner.",1.0,0.0,0.0
+429,Choose the most appropriate response to this statement.<br><br>Can you ski?,1.0,2.181577738,S,"c) No, I tried once, but I broke my leg.",1.0,0.0,0.0
+432,Choose the most appropriate response to this statement.<br><br>Can you speak French?,1.0,1.606182336,S,"c) Yes, but I use it only when I travel.",1.0,0.0,0.0
+435,Choose the most appropriate response to this statement.<br><br>Can you swim?,1.0,2.437034741,N,"c) Only in the shower, but not very well.",1.0,0.0,0.0
+438,Choose the most appropriate response to this statement.<br><br>Can you understand the instructions she is giving?,1.0,3.370522728,S,"a) No, she&#146;s really unclear.",1.0,0.0,0.0
+441,Choose the most appropriate response to this statement.<br><br>Ellen should be here at the arrivals lounge by now.,2.0,0.3704983574,S,c) Her plane must be late.,1.0,0.0,0.0
+444,Choose the most appropriate response to this statement.<br><br>Everybody  likes chatting today. Too bad I don&#146;t own a computer. ,1.0,-0.2082205951,N,c) You shouldn&#146;t spend so much time in those chat rooms.,1.0,0.0,0.0
+447,Choose the most appropriate response to this statement.<br><br>Everyone at the party is having fun.      ,1.0,0.6819796721,S,c) You are right. Everybody is laughing and dancing.,1.0,0.0,0.0
+450,Choose the most appropriate response to this statement.<br><br>Few people came to see the game.,3.0,0.4373751993,N,c) No wonder! That&#146;s why I couldn&#146;t get a ticket.,1.0,0.0,0.0
+453,Choose the most appropriate response to this statement.<br><br>Gosh! I really miss those old childhood days ...,3.0,-1.228506647,N,c) Why? When did you use to do it?,1.0,0.0,0.0
+456,Choose the most appropriate response to this statement.<br><br>Harry doesn&#146;t feel he has got a future with the company. ,1.0,1.6555609919999998,S,a) He shouldn't worry. He's a very good employee.,1.0,0.0,0.0
+459,Choose the most appropriate response to this statement.<br><br>Have you had lunch already?,2.0,1.56831771,N,"c) Yes, the groceries are in the fridge. Let&#146;s start cooking.",1.0,0.0,0.0
+462,"Choose the most appropriate response to this statement.<br><br>He&#146;s too young to vote, but old enough to go to war.",3.0,-1.7974244330000002,N,b) That&#146;s why he will vote before joining the army.,1.0,0.0,0.0
+465,Choose the most appropriate response to this statement.<br><br>He has very little patience with children.,3.0,2.07571594,S,c) I don&#146;t think he should be teaching kids. ,1.0,0.0,0.0
+468,"Choose the most appropriate response to this statement.<br><br>He is from Texas, in  the South.",1.0,0.4745205597,N,"c) No, she&#146;s American.<br>",1.0,0.0,0.0
+471,"Choose the most appropriate response to this statement.<br><br>Hey mom, I&#146;m leaving!",1.0,0.9175958978,N,b) Please wash your hands before sitting at the table.,1.0,0.0,0.0
+474,Choose the most appropriate response to this statement.<br><br>I&#146;m really worried about my future.,1.0,0.7203512051000001,N,"c) No, thanks. I don&#146;t want to know about my future.",1.0,0.0,0.0
+477,Choose the most appropriate response to this statement.<br><br>I&#146;m sorry! The traffic was a complete mess.,3.0,0.9713058171,N,c) You should have told me you were going to be here early.,1.0,0.0,0.0
+480,Choose the most appropriate response to this statement .<br><br>I&#146;m tired of my job.,1.0,0.9654539597,S,c) You should look in the Sunday Times. They always have lots of job ads,1.0,0.0,0.0
+483,Choose the most appropriate response to this statement.<br><br>I can&#146;t go out because I have a lot of work.,1.0,-0.6634217427,N,c)I know. I can work very hard too.,1.0,0.0,0.0
+486,Choose the most appropriate response to this statement.<br><br>I can&#146;t use office machines very well.,1.0,1.27480134,N,"c) Yes, you&#146;re very good at using them.",1.0,0.0,0.0
+489,Choose the most appropriate response to this statement.<br><br>I could barely recognize John yesterday. He looked awful!,3.0,0.7103569285,S,c) He may have had a terrible day.,1.0,0.0,0.0
+492,Choose the most appropriate response to this statement.<br><br>I don&#146;t know why those Japanese were so upset during dinner.,3.0,2.473580245,N,c) Eating Sushi must have made me feel upset too.,1.0,0.0,0.0
+495,Choose the most appropriate response to this statement.<br><br>I don&#146;t think I&#146;ll pass. I definitely flunked it.,3.0,1.265194385,N,c) That doesn&#146;t surprise me. I knew you&#146;d make it.,1.0,0.0,0.0
+498,"Choose the most appropriate response to this statement.<br><br>I got this surprise birthday present, but it doesn&#146;t have a card.",2.0,5.187483374,N,c) I knew it was mark.,1.0,0.0,0.0
+501,Choose the most appropriate response to this statement.<br><br>I'm starving. I haven&#146;t had a bite of anything in the entire morning.,2.0,1.375375543,S,"a) He&#146;s been working so hard, he hasn&#146;t had a minute to eat.",1.0,0.0,0.0
+504,Choose the most appropriate response to this statement.<br><br>I recommend having the day special.,2.0,-0.1053723166,N,c) Thanks for recommending me.,1.0,0.0,0.0
+507,Choose the most appropriate response to this statement.<br><br>It&#146;s a nice atmosphere. I see many people here are enjoying the festival.,1.0,0.08090033827000001,N,c) You are right. The festival is very hot.,1.0,0.0,0.0
+510,"Choose the most appropriate response to this statement.<br><br>I told him to clean his room, but it went in one ear and out the other.",3.0,-0.5770498022,N,c) You could&#146;ve told him to stop right away.,1.0,0.0,0.0
+513,Choose the most appropriate response to this statement.<br><br>I wonder why she hit the road so early.,3.0,2.045559023,N,c) She might&#146;ve wanted to stay a little more.,1.0,0.0,0.0
+516,Choose the most appropriate response to this statement.<br><br>I would never eat chocolate after going to the dentist. My mother used to scold me for doing so.,2.0,0.7275887845000001,N,a) No wonder you have such rotten teeth.,1.0,0.0,0.0
+519,"Choose the most appropriate response to this statement.<br><br>Janet won&#146;t be at the meeting, but she will send somebody else.",2.0,0.7554364557,S,c) It must be Sally. She always goes on behalf of Janet.,1.0,0.0,0.0
+522,Choose the most appropriate response to this statement.<br><br>Jeremy should make his classes more interesting.,1.0,-0.9752494294,N,a) He should really talk to a psychologist about his depression.,1.0,0.0,0.0
+525,Choose the most appropriate response to this statement.<br><br>Look at all the paparazzi next to that red car. ,1.0,1.063365127,S,b) I don&#146;t think the guy inside is having fun.,1.0,0.0,0.0
+528,Choose the most appropriate response to this statement.<br><br>Look at that parade! The marching band are playing so well.,1.0,-0.5636231322999999,N,a)When's the parade?,1.0,0.0,0.0
+531,Choose the most appropriate response to this statement.<br><br>Look! That guy is climbing up onto the statue.,1.0,1.45244129,N,c) Interesting! But I don&#146;t like the statue.,1.0,0.0,0.0
+534,Choose the most appropriate response to this statement.<br><br>Sorry about that. I didn&#146;t see where I was going.,2.0,1.059776456,S,c) You could be more careful next time. You can break it very easily.,1.0,0.0,0.0
+537,Choose the most appropriate response to this statement.<br><br>The bride is extremely nervous. What could the matter be?,2.0,1.117699788,S,a) She&#146;s been waiting for the groom for at least ten minutes.,1.0,0.0,0.0
+540,Choose the most appropriate response to this statement.<br><br>The car stopped when I least expected it.,3.0,1.019854072,S,a) Maybe you didn&#146;t get the oil changed when you were supposed to.,1.0,0.0,0.0
+543,Choose the most appropriate response to this statement.<br><br>The house paint is peeling.,3.0,1.164616462,N,c) They must have painted it recently.,1.0,0.0,0.0
+546,Choose the most appropriate response to this statement.<br><br>Their window is still broken.,3.0,0.1712043389,N,c) It was repaired over the weekend.,1.0,0.0,0.0
+549,"Choose the most appropriate response to this statement.<br><br>The king of birds  feeds its offspring with live rodents, among other things.",2.0,1.532407376,N,c) Have you ever seen an octopus?,1.0,0.0,0.0
+552,"Choose the most appropriate response to this statement.<br><br>The line at the baker&#146;s didn&#146;t use to be so long, but now it&#146;s terrible.",2.0,-0.8740531461,N,"a) Yes. Before, we had to line up for a long time.",1.0,0.0,0.0
+555,Choose the most appropriate response to this statement .<br><br>There are a lot of parks and museums in my neighborhood.,1.0,-1.249547839,N,c) That&#146;s terreble! There&#146;s no parking near the museum.,1.0,0.0,0.0
+558,Choose the most appropriate response to this statement .<br><br>There aren&#146;t many channels to watch.,1.0,0.4104009098,S,a) I know. I&#146;m going to change my cable company service.,1.0,0.0,0.0
+561,Choose the most appropriate response to this statement .<br><br>There are plenty of rooms in this apartment.,1.0,0.4090590958,S,"c) That's good, we're eight in my family.",1.0,0.0,0.0
+564,Choose the most appropriate response to this statement .<br><br>There is a lot of cheese in the fridge.,1.0,0.8217929814,N,c) Too much meat is bad for you.,1.0,0.0,0.0
+567,"Choose the most appropriate response to this statement .<br><br>There isn&#146;t any bread or ham, but there&#146;s some fruit.",1.0,0.1851059314,S,"c) Thanks, I&#146;ll have a banana.",1.0,0.0,0.0
+570,Choose the most appropriate response to this statement .<br><br>There's a lot of traffic at this time of the day.,1.0,-1.1893959159999998,N,"c) So, we'll get there with plenty of time.",1.0,0.0,0.0
+573,"Choose the most appropriate response to this statement.<br><br>They are two of our best friends. Unfortunately, they are abroad.",1.0,-1.046862693,S,a) Where exactly are they now?,1.0,0.0,0.0
+576,Choose the most appropriate response to this statement.<br><br>This circus is  wonderful! Clowns can really make us laugh.,1.0,-0.3699393649,S,"a) My uncle is a clown too, but he can&#146;t make anyone laugh.",1.0,0.0,0.0
+579,Choose the most appropriate response to this statement.<br><br>This Filet Mignon tastes so good. How did you learn to cook so well?,2.0,-0.8124530557999999,S,a) I used to be a chef for a hotel chain.,1.0,0.0,0.0
+582,"Choose the most appropriate response to this statement.<br><br>This morning, I tried calling my boyfriend&#146;s  phone, but he didn&#146;t answer.",3.0,1.028877073,S,a) He must&#146;ve been in the shower.,1.0,0.0,0.0
+585,Choose the most appropriate response to this statement.<br><br>This must be a very boring party. Nobody is dancing.,1.0,-1.054115043,N,c) I&#146;m sorry. I don&#146;t want to dance.,1.0,0.0,0.0
+588,Choose the most appropriate response to this statement.<br><br>This spaghetti is so disgusting!,3.0,-0.7681274235,N,c) I&#146;m glad you liked them.,1.0,0.0,0.0
+591,Choose the most appropriate response to this statement.<br><br>Those people are crazy!! It is only spring and they are wearing summer clothes!,1.0,-1.982819198,N,"c) Yes, those coats, hats and boots are very fashionable.",1.0,0.0,0.0
+594,Choose the most appropriate response to this statement.<br><br>Those women are blocking the entrance to that building.,1.0,-0.6732767467,S,a) I think they are protesting against the President.,1.0,0.0,0.0
+597,Choose the most appropriate response to this statement.<br><br>We&#146;re leaving for Mexico on Friday.,1.0,1.1976034290000002,N,c) Did you buy that mexican hat there?,1.0,0.0,0.0
+600,Choose the most appropriate response to this statement.<br><br>We have little time left to finish this.,3.0,0.1025087484,N,c) At last! I&#146;m glad we&#146;re done.,1.0,0.0,0.0
+603,Choose the most appropriate response to this statement<br><br>What time shall I come for you?,2.0,0.02903718385,N,c) Could you take your car?,1.0,0.0,0.0
+606,Choose the most appropriate response to this statement.<br><br>What time should I get there?,1.0,1.940864136,N,c) You should get the trolley.,1.0,0.0,0.0
+609,Choose the most appropriate response to this statement.<br><br>What were you doing when the earthquake occurred?,2.0,0.2740040731,N,"c) Me? Well, I don't like earthquakes that much, so I took a trip to the zoo with the kids.",1.0,0.0,0.0
+612,Choose the most appropriate response to this statement.<br><br>Who is on the phone with Sue? She looks happy!,2.0,0.7410948808,N,c) Ron. He must be very upset.,1.0,0.0,0.0
+615,Choose the most appropriate response to this statement.<br><br>Why is that man taking the newspaper out of his bag?,1.0,-1.646233204,N,c) He&#146;s going to watch them tonight.,1.0,0.0,0.0
+618,"Choose the most appropriate response to this statement.<br><br>Wow, that&#8217;s a nice car!",2.0,-0.3759998606,N,c) I have broken my cousin&#146;s.,1.0,0.0,0.0
+621,Choose the most appropriate response to this statement.<br><br>Wow! There are a lot of people here. And look! more people are coming.,1.0,1.6556468290000002,S,a) You are right! I think they are celebrating New Year's Day,1.0,0.0,0.0
+624,"Choose the option closest in meaning to the statement.<br><br>Everything happened so quickly. Even if I had tried to do something, I would have failed.",3.0,1.82521591,N,"c) The person tried doing something to prevent the situation, but failed.",1.0,0.0,0.0
+627,Choose the option closest in meaning to the statement.<br><br>Global warming wouldn&#146;t be a problem now if human beings had become environmentally conscious 30 years ago.,3.0,0.264442474,S,c) We should have started taking care of the planet 30 years ago.,1.0,0.0,0.0
+630,Choose the option closest in meaning to the statement.<br><br>High school students should be allowed to choose their own courses.,3.0,-0.5364934122999999,N,c) The courses can be selected by students.,1.0,0.0,0.0
+633,"Choose the option closest in meaning to the statement.<br><br>Honey, if I had known you wanted to see it that much, I would have certainly recorded it.",3.0,1.435050401,N,a) The woman recorded the movie because she knew her husband wanted to see it.,1.0,0.0,0.0
+636,"Choose the option closest in meaning to the statement.<br><br>If he hadn&#146;t fallen asleep while driving, he wouldn&#146;t have crashed his car.",3.0,-0.7073282951000001,N,c) He couldn&#146;t fall asleep because he crashed his car.,1.0,0.0,0.0
+639,"Choose the option closest in meaning to the statement.<br><br>If Jack had followed the instructions in the manual, his new DVD player wouldn&#146;t have broken down.",3.0,-0.6415751984,N,"c) Jack followed the instructions in the manual, but the DVD player didn&#146;t work.",1.0,0.0,0.0
+642,"Choose the option closest in meaning to the statement.<br><br>If the wind hadn&#146;t been so strong, the bridge wouldn&#146;t have collapsed.",3.0,-0.5422362368,N,c) The bridge would have collapsed even if the wind hadn&#146;t been so strong.,1.0,0.0,0.0
+645,Choose the option closest in meaning to the statement.<br><br>It is mandatory that every food sample be enriched with vitamins.,3.0,-0.4029871261,S,c) The food samples have to be enriched with vitamins.,1.0,0.0,0.0
+648,Choose the option closest in meaning to the statement.<br><br>I wouldn&#146;t have believed it if I hadn&#146;t seen it with my very own eyes.,3.0,-1.140855668,N,c) I&#146;m not sure it happened because I didn&#146;t see it.,1.0,0.0,0.0
+651,"Choose the option closest in meaning to the statement.<br><br>Now, she regrets that she didn&#146;t come to John&#146;s wedding. If she had come she would have enjoyed herself.",3.0,-0.7858799761,N,c) She feels she shouldn&#146;t have enjoyed herself that much at the wedding.,1.0,0.0,0.0
+654,Choose the option closest in meaning to the statement.<br><br>Simon has gone on holiday and I really need to speak to him. I wish he had given me his phone number.,3.0,-0.8591879392,N,c) I will call Simon even though he is on vacation.,1.0,0.0,0.0
+657,Choose the option closest in meaning to the statement.<br><br>The police officer said the burglars wouldn&#146;t have broken into the house if the woman had closed all the doors and windows.,3.0,-0.5667358699,S,c) The burglars broke into the house because the woman left all the doors and windows open.,1.0,0.0,0.0
+660,"Choose the option closest in meaning to the statement.<br><br>""We should know by Thursday whether our proposal has been approved.""",3.0,1.327113283,N,c) We know that the proposal was approved last Thursday.,1.0,0.0,0.0
+663,"Choose the option that best completes what the speaker would say next.<br><br>After 20 minutes, I had had enough.",3.0,1.092444325,N,c) I even read the movie credits.,1.0,0.0,0.0
+666,Choose the option that best completes what the speaker would say next.<br><br>That&#146;s it. I&#146;ve had enough!,3.0,-0.06998374307,N,c) You are welcome. Stop by again.,1.0,0.0,0.0
+669,Choose the option that best completes what the speaker would say next.<br><br>This apartment isn&#146;t big enough for the two of us.,3.0,1.167761051,N,b) We should both move to a smaller one.,1.0,0.0,0.0
+672,Choose the option that best explains what the speaker says.<br><br>I have little time for people who never listen to anyone else but themselves.,3.0,0.8630212975,N,a) I&#146;m all ears for them.,1.0,0.0,0.0
+675,Choose the option that best explains what the speaker says.<br><br>Jordan gave very few reasons for closing down the bar.,3.0,0.5189714639,N,a) We all know why he closed it.,1.0,0.0,0.0
+678,Choose the option that best explains what the speaker says.<br><br>Too many people were booked on the flight.,3.0,1.016852882,N,c) The plane was almost full.,1.0,0.0,0.0
+681,Choose the phrase or statement that best represents what the speaker would say next<br><br>I cannot put up with their extravagance anymore.,2.0,0.2909093968,N,c) They&#8217;ve never had luxurious things.,1.0,0.0,0.0
+684,Choose the phrase or statement that best represents what the speaker would say next<br><br>I desperately wanted to talk to you on thursday.,2.0,1.234052577,N,c) Our meeting on thursday was unexpected.,1.0,0.0,0.0
+687,Choose the phrase or statement that best represents what the speaker would say next.<br><br>I have never been fond of extreme sports.,2.0,0.4192547673,S,"c) I have tried snowboarding, but it wasn&#146;t my thing",1.0,0.0,0.0
+690,"Choose the phrase or statement that best represents what the speaker would say next.<br><br>It&#146;s started raining. Because of this, we can&#146;t go.",3.0,0.9446753523,N,a) So hurry up or we&#8217;ll never get there on time.,1.0,0.0,0.0
+693,"Choose the phrase or statement that best represents what the speaker would say next.<br><br>It was a windy and rainy night. Nevertheless, I decided to go out.",3.0,-0.532217128,N,b) That&#8217;s why we didn&#8217;t need to take our coats.,1.0,0.0,0.0
+696,Choose the phrase or statement that best represents what the speaker would say next.<br><br>No one seems to be a bookworm around here.,2.0,-0.6058974621000001,N,c) Those books have been on that shelf for just a short time.,1.0,0.0,0.0
+699,"Choose the phrase or statement that best represents what the speaker would say next<br><br>Oh, my God. When&#146;s she going to stop eating?",2.0,-0.4983302061,S,c) She has already eaten five slices of pizza.,1.0,0.0,0.0
+702,Choose the phrase or statement that best represents what the speaker would say next.<br><br>She's having one of her bad moods.,2.0,-0.3938412209,S,c) She's  been staying up late.,1.0,0.0,0.0
+705,Choose the phrase or statement that best represents what the speaker would say next.<br><br>Shirley can&#146;t go skiing that often any more.,2.0,-1.155908804,N,c) She&#146;s had those skis for months!,1.0,0.0,0.0
+708,"Choose the sentence closest in meaning to the one below.<br><br>Catherine is a speech major, as is her sister.",2.0,0.3685176602,S,c. Catherine and her sister study the same subject.,1.0,0.0,0.0
+711,Choose the sentence closest in meaning to the one below.<br><br>It was surprising that Jack adapted to his new surroundings faster than his wife. ,2.0,-0.2677949676,S,c) Jack adapted well to his new environment. ,1.0,0.0,0.0
+714,"Choose the sentence closest in meaning to the one below.<br><br>Like her predecessor, Julia takes many coffee breaks during her shift.",2.0,-0.5033126065,S,c) Julia&#146;s coffee breaks are as numerous as her predecessor&#146;s.,1.0,0.0,0.0
+717,Choose the sentence closest in meaning to the one below.<br><br>Neither of the new assistants is more competent than the other.,2.0,0.4638827249,N,c) The new assistant is more capable than the other one.,1.0,0.0,0.0
+720,"Choose the sentence that best describes what the speakers mean.<br><br>John: I heard you really liked Sao Paulo. <br>Peter: Yes, it&#146;s the best city I&#146;ve ever visited in the southern part of the country. The trip to the Brazilian south is quite exhausting, though.",3.0,0.8398698551,N,c) Going to the Brazilian south is the best thing that Peter has experienced.,1.0,0.0,0.0
+723,Choose the sentence that best describes what the speakers mean.<br><br>Phil: I&#146;m never going back there! <br>Laura: I&#146;m sorry if I ever recommended you that mechanic.,3.0,-1.455668784,S,c) Phil really disliked the mechanic Laura recommended.,1.0,0.0,0.0
+726,"Choose the sentence that best describes what the speakers mean. <br><br>Ron: Let&squo;s get rid of that maid, the chores are never done on time and she&squo;s mean to the kids. <br>Linda: But we just hired her!",3.0,0.8104623370999999,N,"c) The maid, who&squo;s mean to the kids, plans to leave them very soon.<br>",1.0,0.0,0.0
+729,Choose the sentence that best describes what the speaker would say next.<br><br>Excuse me. Could you tell me where the nearest pub is?,3.0,0.08463905002000001,N,c) That&#146;s where I met my wife.,1.0,0.0,0.0
+732,"Choose the sentence that best describes what the speaker would say next.<br><br>""I just got to the airport.""",3.0,0.992215011,N,a) Could you tell me what country this is?,1.0,0.0,0.0
+735,Choose the sentence that best describes what the speaker would say next.<br><br>That&#146;s it! I&#146;ve had it with you two.,3.0,-0.5676586577,N,c) I wonder why you&#146;re being so kind.,1.0,0.0,0.0
+738,Choose the sentence that best explains what the speaker mean.<br><br>Did you remember to visit your grandma in hospital?,2.0,0.6944107289,N,c) Do you remember visiting your grandma when she was in hospital?,1.0,0.0,0.0
+741,Choose the sentence that best explains what the speaker mean.<br> <br>Jeremy is looking forward to finishing his degree before the fall.,2.0,0.9647183092,N,b) The temperature of Jeremy&#8217;s room dropped several degrees in the fall.,1.0,0.0,0.0
+744,Choose the sentence that best explains what the speaker mean.<br><br>The company&#146;s president delayed paying the union workers.,2.0,-1.5826559080000002,N,c) The union workers got their salary on time.,1.0,0.0,0.0
+747,Choose the sentence that best explains what the speaker means.<br><br>After the holidays it takes me a week to get used to getting up early again.,2.0,-0.6928408034,N,"c) During the holidays, it was hard for him to get up early.",1.0,0.0,0.0
+750,"Choose the sentence that best explains what the speaker means.<br><br>At first , it was difficult for her to speak French all the time, but she has gotten used to it now.",2.0,1.4088116430000002,N,c) She  used to be a lot more fluent before.,1.0,0.0,0.0
+753,Choose the sentence that best explains what the speaker means.<br><br>Bill&squo;s acupuncturist recommended  he stop smoking.,2.0,-0.2051090409,N,c) Bill had to stop smoking because he was at the acupuncturist&#146;s.,1.0,0.0,0.0
+756,Choose the sentence that best explains what the speaker means.<br><br><br>I really want to find out whether animals have feelings.,3.0,0.9663927114,S,c) The speaker wants to know if animals  have feelings.,1.0,0.0,0.0
+759,"Choose the sentence that best explains what the speaker means.<br><br>Every night after school, our father would check our notebooks to make sure we had done our homework.",2.0,0.2238892693,S,c) My father always checked our homework to see if we had done it or not.,1.0,0.0,0.0
+762,Choose the sentence that best explains what the speaker means.<br><br>Families used to get together to listen to the radio.,2.0,0.1639710562,S,"c) They listened to the radio together, but not anymore.",1.0,0.0,0.0
+765,"Choose the sentence that best explains what the speaker means.<br><br>""Gee! I wonder what Jane&#146;s problem is.""",3.0,0.9274301064,N,b) The speaker knows why Jane is acting that way.,1.0,0.0,0.0
+768,Choose the sentence that best explains what the speaker means.<br><br>I can&#146;t tell whether they&#146;ll come.,3.0,-0.25345146350000003,N,c) They&#146;ll come if the weather is o.k.,1.0,0.0,0.0
+771,"Choose the sentence that best explains what the speaker means.<br><br>I don&#146;t like strawberry ice cream. However, I&#146;m partial to chocolate flavor.",3.0,-0.5846425701,N,a) He likes both strawberry and chocolate ice cream.,1.0,0.0,0.0
+774,"Choose the sentence that best explains what the speaker means.<br><br>I used to play football when I was young, but now I&#146;m too heavy and rusty to play.",2.0,2.022056587,N,a) He was out of shape and not a good football player in the past.,1.0,0.0,0.0
+777,"Choose the sentence that best explains what the speaker means.<br><br>Jim doesn&#146;t have a girlfriend, but he used to.",2.0,1.8820276,S,"a) He had a girlfriend, but he doesn&#8217;t anymore.",1.0,0.0,0.0
+780,"Choose the sentence that best explains what the speaker means.<br><br>John was in London for a year, but he could never get used to the insipid food and the miserable weather.",2.0,-2.123812533,N,c) John eventually started to like the food and the weather in England.,1.0,0.0,0.0
+783,"Choose the sentence that best explains what the speaker means.<br><br>Karen is plump. Her cousin Kate, on the other hand, is slim.",3.0,1.340673802,N,c) Neither of them is thin.,1.0,0.0,0.0
+786,Choose the sentence that best explains what the speaker means.<br><br>Listen to that music! Even my grandfather is dancing.,1.0,-1.485177458,N,c)This kind of music is especially made for grandfathers.,1.0,0.0,0.0
+789,"Choose the sentence that best explains what the speaker means.<br><br>She&#146;s extremely rich. She&#146;s not snobbish, though.",3.0,1.389198813,N,"c) Since she doesn&#146;t have a lot of money, she shouldn&#146;t be snobbish.",1.0,0.0,0.0
+792,"Choose the sentence that best explains what the speaker means.<br><br>Since the weather forecast warned us about the bad weather, I had the children put on two pullovers.",3.0,1.245699997,N,a) I warned the children about the bad weather.,1.0,0.0,0.0
+795,"Choose the sentence that best explains what the speaker means.<br><br>The government is having problems with illegal immigration. Furthermore, the country&#146;s economic policies are failing.",3.0,0.576965645,N,c) Economic policies are failing because of illegal immigration.,1.0,0.0,0.0
+798,"Choose the sentence that best explains what the speaker means.<br><br>The union workers will go on a strike, unless the board members accept their petitions.",3.0,1.22389006,S,"b) If the members of the board don&#8217;t improve work conditions, the workers will go on a strike.",1.0,0.0,0.0
+801,"Choose the sentence that best explains what the speaker means.<br><br>They got me to fry them eggs for breakfast, which took quite long, because our stove is not in perfect order.",3.0,-1.110834547,S,"c) Even though it took me a while, I fried the eggs.",1.0,0.0,0.0
+804,Choose the sentence that best explains what the speaker means.<br><br>Why don&#146;t you put on your coat? You could catch a cold.,2.0,0.1955577109,S,"a) By putting on your coat, you won&#8217;t get sick.",1.0,0.0,0.0
+807,"Choose the sentence that means the same as the statement.<br><br>""Don&#146;t fly kites near electric overhead cables."" said my father.",3.0,1.418661305,S,c. My father warned me not to fly kites near electric overhead cables.,1.0,0.0,0.0
+810,"Choose the sentence that means the same as the statement.<br><br>""I&#146;m feeling a little bit under the weather."" he said.",3.0,1.243783195,S,c. He said he was feeling a little sick.,1.0,0.0,0.0
+813,"Choose the sentence that means the same as the statement.<br><br>""I promise I will eventually take you to Prague."" said Mary. ",3.0,1.809392295,S,c. Mary assured me I would be taken to Prague one day.,1.0,0.0,0.0
+816,"Choose the sentence that means the same as the statement.<br><br>""Let&#146;s have lunch, I&#146;m starving,"" she said.",3.0,1.98980015,N,c. She made me have lunch with her because I was starving.,1.0,0.0,0.0
+819,"Choose the sentence that means the same as the statement.<br><br>&quot;Don&#146;t forget to phone Granny,&quot; said Mom.",3.0,-0.04143651478,N,c. Mom refused to call Granny. ,1.0,0.0,0.0
+822,"Choose the sentence that means the same as the statement.<br><br>&quot;I didn&#146;t do anything at all ,&quot; she said. ",3.0,1.076410899,N,c. She promised she would do it.,1.0,0.0,0.0
+825,"Choose the sentence that means the same as the statement.<br><br>&quot;I hope Andy phones tonight,&quot; said Clare. ",3.0,0.624654303,N,c. Clare is afraid Andy will call tonight.,1.0,0.0,0.0
+828,Choose the sentence that means the same as the statement.<br><br>&quot;Please! Please! Don&#146;t tell anyone!&quot; he said.,3.0,-1.684675689,N,c. He praised me for not having told anyone.,1.0,0.0,0.0
+831,"Choose the sentence that means the same as the statement.<br><br>""You&#146;d better take driving lessons."" she said.",3.0,0.5691419681000001,N,c. She indicated I was a better driver since I took lessons.,1.0,0.0,0.0
+834,Choose the sentence the speaker would say next.<br><br>I don&#146;t know about renting the premises: the walls are scratched and the pipes leaking.,3.0,-0.06879243733,S,a) Let&#146;s look at some more ads.,1.0,0.0,0.0
+837,"Choose the statement that best represents what the speaker would say next.<br><br>Charles and Caroline are happy, they  just got married.",1.0,0.3593833159000001,S,c) I&#146;m happy for them. ,1.0,0.0,0.0
+840,Choose the statement that best represents what the speaker would say next.<br><br>I&#146;m so hungry I could swallow a horse.,2.0,-0.6331833134,S,c) What do you have in the refrigerator?,1.0,0.0,0.0
+843,Choose the statement that best represents what the speaker would say next.<br><br>I couldn't go to class last week.,2.0,2.018635752,N,c) I couldn&#146;t catch what the lecturer said.,1.0,0.0,0.0
+846,Choose the statement that best represents what the speaker would say next.<br><br>I got stuck in traffic and couldn&#146;t go to the meeting.,2.0,0.6866069505,N,c) Why didn&#146;t you tell me about it?,1.0,0.0,0.0
+849,Choose the statement that best represents what the speaker would say next.<br><br>Peter and Justine are father and daughter.,1.0,-0.4493156876,N,"c) Yes, she is.",1.0,0.0,0.0
+852,Choose the statement that best represents what the speaker would say next.<br><br>This report doesn&squo;t say whether the meeting is in the morning or afternoon.,2.0,0.4016076281,S,"c) So could you send an e-mail making it clear to everybody, please?",1.0,0.0,0.0
+855,Choose the statement that best represents what the speaker would say next.<br><br>This seat seems to be free.,2.0,1.123251237,N,c) There&#146;s an old lady sitting in it.,1.0,0.0,0.0
+858,Cigarette smoking could kill you. _____________,1.0,0.7849376095999999,S,a) Stop smoking before it&#146;s too late.,1.0,0.0,0.0
+861,Clara has got a headache. She ________________ with us to the club.,1.0,0.2465557951,N,c) coming,1.0,0.0,0.0
+864,Claudia: There&#146;s no milk in the fridge.<br>    Nicholas: Really? ________ some tomorrow.<br>,1.0,0.3015449583,N,c) I&#146;m get,1.0,0.0,0.0
+867,Colombian women __________ very beautiful,1.0,0.6757715459999999,N,c) looks,1.0,0.0,0.0
+870,Could you ask Andy ____________________ ?,3.0,0.8197785675,N,c) does he call me back,1.0,0.0,0.0
+873,"Dave thinks she&#146;s from the United States, but judging by her accent, she ________ be British.",2.0,1.443303161,N,c) would,1.0,0.0,0.0
+876,Did Sandra _____________  the lights before we left?,1.0,1.326682986,N,c) turns off,1.0,0.0,0.0
+879,Do you know __________________________ she's coming to the party?,3.0,1.203440965,N,c) if does,1.0,0.0,0.0
+882,Do you know where I can _________________ my fortune?,3.0,-1.048538381,S,c) get someone to tell,1.0,0.0,0.0
+885,Do you _______________that you wrote the article? said Mr. Jordan.,2.0,0.647390542,N,a) expected me to believe,1.0,0.0,0.0
+888,Do you think we can get Karen _________ us to San Diego?,3.0,0.7337625436,N,c) taking,1.0,0.0,0.0
+891,Everyone was home for the holidays. There wasn&squo;t  ___________ Christmas than that.,2.0,1.451490795,S,c) a merrier,1.0,0.0,0.0
+894,Excuse me! Your music is very loud. _________________,2.0,1.6349425430000002,N,a) May you turn it down a little?,1.0,0.0,0.0
+897,Gloria is very upset at her son. She ______________.,1.0,0.1006951892,S,a) isn&#146;t going to let him go out,1.0,0.0,0.0
+900,Gloria: Joe took your new car.<br>Samuel: WHAT? ________ him. He had an accident last week!<br>,1.0,1.491408521,N,c) I killing,1.0,0.0,0.0
+903,Have you ever ________ to New York? No I&#146;ve never ________ there.,2.0,0.1279096455,S,c) been been,1.0,0.0,0.0
+906,"Have you ________ to the top of the Empire State Building? No, I ________ yet.",2.0,0.1215762406,N,c) going / hasn&squo;t,1.0,0.0,0.0
+909,He asked me if ____________________________.,3.0,2.248812682,N,a. I will go to a movie with him.,1.0,0.0,0.0
+912,He bought all the books ________.<br>,3.0,-1.676309476,N,c) that is required for the course. ,1.0,0.0,0.0
+915,He can ___ to his radio when my mother is not at home.,1.0,1.779136375,N,c) to listen,1.0,0.0,0.0
+918,He can ________________ very well.,1.0,1.215364548,S,c) dance,1.0,0.0,0.0
+921,"He covered all the walls with wooden boards. ______ , the damages the tornado caused were very little.",3.0,0.4766807708,S,a) Therefore,1.0,0.0,0.0
+924,Henry: What time should we meet Gloria at the airport?<br>Nina: I think  she ________ in half an hour. I think we should leave now.<br>,1.0,0.5754578954,S,c) will arrive,1.0,0.0,0.0
+927,Her husband always _________________  the laundry.,3.0,-1.227890666,S,c) helps her do,1.0,0.0,0.0
+930,He told me that when he was little___________________________.,3.0,-0.1683064809,S,b. he had had to wear a uniform,1.0,0.0,0.0
+933,How long ______________  in Canada?,2.0,1.3935661540000002,N,c) are you being,1.0,0.0,0.0
+936,I&#146;m not sure where Dave is. He __________ taken Benjamin to a movie or to the zoo.<br>,3.0,2.082728557,N,c) ought not to have,1.0,0.0,0.0
+939,I&#146;ve just ________ back from L.A. I ________ at least six weeks over there. ,2.0,-1.018169617,N,b) came / spent,1.0,0.0,0.0
+942,I  ________ a Broadway show.,2.0,2.405982586,N,c) having starred in,1.0,0.0,0.0
+945,I ______ all about it if you hadn&#146;t reminded me.,3.0,0.6588807024000001,N,a) had forgotten,1.0,0.0,0.0
+948,I ____________ a lot of new friends since I moved to this building.,2.0,2.046125691,S,b) have made,1.0,0.0,0.0
+951,I always ___ the window at night because it is cold.<br><br>,1.0,0.1675017799,N,c) closes,1.0,0.0,0.0
+954,________________ I am carrying all these books.,2.0,1.099369532,S,"a) Could you open the door for me, please?",1.0,0.0,0.0
+957,I _______ anything because the dentist _______ me two kinds of anaesthetic.,3.0,1.24032976,S,b) didn&#146;t feel . . . had given,1.0,0.0,0.0
+960,I __________ been glad to help you. Why didn&#146;t you ask?,3.0,-0.1201053004,N,c) must&#146;ve,1.0,0.0,0.0
+963,"I __________behave foolishly, but I&#8217;ve grown up.",2.0,1.38061843,S,a) used to,1.0,0.0,0.0
+966,I didn&#146;t understand what you said to me. ___________________,2.0,1.775108272,N,"a) Do you repeat, please?",1.0,0.0,0.0
+969,I _______ dinner when I _______ to watch tv for a while.,3.0,2.267367985,N,c) had finished . . . had decided,1.0,0.0,0.0
+972,I  don&#146;t understand why you _____ lend me your car.,1.0,1.81693862,N,c) am not,1.0,0.0,0.0
+975,"I don&#146;t want you to be upset, but I ___________the bill!",2.0,2.131692754,S,c) forgot to pay,1.0,0.0,0.0
+978,I don´t know __________________ angry.,3.0,2.05800456,N,a) why is she,1.0,0.0,0.0
+981,"I ______________fat, but I lost a lot of weight in high school.",2.0,2.076462899,N,c) would always be,1.0,0.0,0.0
+984,"If he _______all his money, he ________on holiday to Canada.",2.0,1.113891349,S,a) saves/ will be able to go,1.0,0.0,0.0
+987,"If he were younger, he ________ able to walk faster.",2.0,1.590242901,S,c) would be,1.0,0.0,0.0
+990,"If I ________ a penny  every time I hear the same excuse, I would be rich!",2.0,1.531533685,N,b) will get,1.0,0.0,0.0
+993,"If I had gone to college, I ______ Economics.",3.0,1.01066631,S,c) would have studied,1.0,0.0,0.0
+996,"If I had gone to England, I ______ missed Rachel&#146;s visit.",3.0,3.305611251,N,c) will have,1.0,0.0,0.0
+999,"If I hadn&#146;t spent all the money I had, I _________ to the concert last night.",3.0,-0.538250652,S,c) would have gone,1.0,0.0,0.0
+1002,"If I __________, I would be in serious trouble with my parents.",2.0,-0.2883337935,S,c) weren't such a good student ,1.0,0.0,0.0
+1005,"If it ________ in the Sahara desert, it would be possible to grow some kind of vegetable.",2.0,-1.7592577969999998,S,a) rained,1.0,0.0,0.0
+1008,"If I ________ you, I wouldn&#146;t accept that job. It sounds terrible!!",2.0,1.29994242,N,b) am,1.0,0.0,0.0
+1011,"If Jan could run 100 metres in 10 seconds, he _______ an excellent athlete.",2.0,0.8757764231999999,N,a) will be ,1.0,0.0,0.0
+1014,"If  __________ no oil in the engine, the car ________ ",2.0,0.6747615932,N,c) there are / will break down,1.0,0.0,0.0
+1017,"If smoking were allowed, I ________ a cigarette.",2.0,0.7458982265,N,a) had,1.0,0.0,0.0
+1020,"If you _______ in the fridge, you _________ some cold drinks.",2.0,-1.954758357,N,c) will find / look,1.0,0.0,0.0
+1023,"If your dog ________, how many things would it say?",2.0,-1.419271453,N,c) will speak,1.0,0.0,0.0
+1026,"If you really want to bake a delicious cake, ___________",1.0,2.8095059680000003,N,c) use fresh strawberries and to marinate them in cranberry juice.,1.0,0.0,0.0
+1029,"If you ______ to what I said, none of this would have happened.",3.0,-1.01694314,N,c) would listen,1.0,0.0,0.0
+1032,"If you _________your sandwiches now, you _________ anything for lunch!",2.0,3.84258544,N,c) will eat / have,1.0,0.0,0.0
+1035,"If you _____ , you ________ the test.",2.0,0.4724650342,N,c) isn't study/ will fail,1.0,0.0,0.0
+1038,I ___ go to the party because I am sick.,1.0,1.993383749,N,c) don´t  want,1.0,0.0,0.0
+1041,"I ________________ go to the party, but I&#146;m not sure yet.",2.0,2.759404539,N,c) must,1.0,0.0,0.0
+1044,"I haven&#146;t ________ the ferry to Ellis Island. I&#146;ve ________ work so hard, I haven&#146;t had time.",2.0,0.7956446545999999,N,c) taking have to,1.0,0.0,0.0
+1047,I _______ in the door when the phone _______.,3.0,0.266261569,N,c) just walked . . . had rung,1.0,0.0,0.0
+1050,I ______________ Judy for more than five weeks.,2.0,3.5373226160000004,N,b) haven't been seeing,1.0,0.0,0.0
+1053,I like this jacket a lot. ___________________,2.0,2.587940965,S,"a) Could I try it on, please?",1.0,0.0,0.0
+1056,I'm feeling dizzy.______________,1.0,1.5425126080000002,S,"a) Please, pull over so I can get some air.",1.0,0.0,0.0
+1059,I ________my favorite song when my sister ___________.,2.0,1.094595397,N,a) listened to / called me up,1.0,0.0,0.0
+1062,I ________ never happy on a Sunday afternoon.,1.0,5.092115789,N,c) are,1.0,0.0,0.0
+1065,___ invite to the picnic?,1.0,2.836838461,N,c) When you are going to,1.0,0.0,0.0
+1068,I ____________to the beach every summer when I was a child. Too bad we live so far now.,2.0,0.1850868163,N,c) had gone,1.0,0.0,0.0
+1071,I ______ to the cocktail party if I hadn&#146;t had so much work to do.,3.0,0.6600498652000001,N,c) would go,1.0,0.0,0.0
+1074,"It's kind of cold, please______________",1.0,0.9989665202,N,a) you open the window.,1.0,0.0,0.0
+1077,_______________ It's very hot in here.,2.0,1.4251652119999998,N,"c) Should you leave the window open, please?",1.0,0.0,0.0
+1080,"I _______ well for several days, so I _______ to see the doctor.",3.0,-0.3377682444,S,c) hadn&#146;t been feeling . . . went,1.0,0.0,0.0
+1083,I wouldn&#146;t have told you if I ______ your reaction.,3.0,5.783369456,S,a) had foreseen,1.0,0.0,0.0
+1086,I ______  you if Marc hadn&#146;t told me who you were.,3.0,1.557717806,S,b) wouldn&#146;t have recognized,1.0,0.0,0.0
+1089,I __________ you my umbrella if you _________ it.,2.0,1.551170036,S,c) will lend / need,1.0,0.0,0.0
+1092,"James considered___________for more time to do his paper, but his professor was very tough on students.",2.0,-3.507800289,N,c)  asked,1.0,0.0,0.0
+1095,"Jessica and her husband have ________ married for 20 years, but they have ________ separated half of the time because he works abroad.",2.0,0.6504808965,N,c) been / living,1.0,0.0,0.0
+1098,Jim Carey________________ a new film.,1.0,0.4413481042,N,c)shooting<br>,1.0,0.0,0.0
+1101,John _______________ for the government since he graduated from Harvard University in 1988.,2.0,-1.309439252,N,c) is working,1.0,0.0,0.0
+1104,"John: I need to talk to Paul at home, but he doesn&#146;t  answer. <br><br>Claire:_________________________",1.0,-1.35713123,N,a) Calling his cell phone.,1.0,0.0,0.0
+1107,John is not invited to the party. ______________,1.0,3.896784808,S,a) Don&#8217;t call him.,1.0,0.0,0.0
+1110,John saw his friend ___________ on the test.,2.0,0.2337185449,N,c) to cheating,1.0,0.0,0.0
+1113, Jonathan ________ a pilot.,1.0,1.268337019,S,b)is,1.0,0.0,0.0
+1116,"Judging by his accent, he ___________ be French.",2.0,0.1169789431,N,c) ought not to,1.0,0.0,0.0
+1119,"Karl ______________the assignment, but he postponed writing it for a week.",2.0,-2.152179565,N,b) intended to doing,1.0,0.0,0.0
+1122,Laura _____________cookies for us when we were kids.,2.0,0.4399314719,N,a) has baked,1.0,0.0,0.0
+1125,"Laura has never ________ Japanese food, but she has ________ to Japan twice.",2.0,0.5953053739,N,c) ate was,1.0,0.0,0.0
+1128,Listen to those people. What language ____________?,1.0,-0.9851448998,S,b) are they speaking,1.0,0.0,0.0
+1131,Look at those photographers! They ________________ pictures of all the people.,1.0,-2.604374892,N,c) is taking,1.0,0.0,0.0
+1134,Look! It&#146;s raining and Professor Johnson is all wet. He __________ forgotten his umbrella again!,3.0,0.3351329992,S,c) must&#146;ve,1.0,0.0,0.0
+1137,Madeleine ________ a Porsche if she won the lottery.,2.0,3.09765438,N,c) bought,1.0,0.0,0.0
+1140,_______________ many tigers left in the world.,1.0,-2.450772105,N,c) It doesn't have,1.0,0.0,0.0
+1143,"Mary, I won&#146;t get paid until next week. ",2.0,3.1350842780000003,N,a) May you lend me some money?,1.0,0.0,0.0
+1146,Mary says she _________________.,1.0,-1.840608357,S,a) is going to visit us soon,1.0,0.0,0.0
+1149,"Matt and Sarah have some difficulties in their relationship, so they _____________ to a marriage counselor lately.",2.0,3.29583688,N,c) go,1.0,0.0,0.0
+1152,"Melissa ____________ her job, but now she is talking about retirement.",2.0,-0.7002651893,S,c) has been thinking of quitting,1.0,0.0,0.0
+1155,Mike _____________ before I left. ,1.0,-0.03501737615,S,c) got up,1.0,0.0,0.0
+1158,_______________. Mine is being repaired.,2.0,-0.1679500624,S,"b) Please, could I borrow your car until tomorrow?",1.0,0.0,0.0
+1161,_______________ much information available on this issue.<br><br>,1.0,5.588265347,S,c) There isn't,1.0,0.0,0.0
+1164,My auntie Harriet is _______________ a mule.,2.0,-0.8819676357999999,S,c) as stubborn as ,1.0,0.0,0.0
+1167,My parents have always ________ in Malibu. They have never  ________.,2.0,-3.16426231,S,c) lived moved,1.0,0.0,0.0
+1170,Nancy ______________ her presentation while Billy _______ his class project.,2.0,0.7481567839,N,a) prepared / finished,1.0,0.0,0.0
+1173,"Next time you visit Cartagena, ___________________",1.0,2.118779001,S,c) you should go to Rosario Islands,1.0,0.0,0.0
+1176,"Oh, Anna isn&#146;t at home!_____________",2.0,3.331595714,N,"c) Can you to leave a message for her, please?",1.0,0.0,0.0
+1179,Oh no! It ________________ and I don´t have my umbrella.,1.0,-3.025421942,S,c) is raining,1.0,0.0,0.0
+1182,_______________ only one way to solve this problem.,1.0,2.253243353,N,c) Are there,1.0,0.0,0.0
+1185,"On the list, there were several young athletes_________________________.",3.0,1.992352493,N,c) with whom are regarded as excellent prospects for next year&#146;s team.,1.0,0.0,0.0
+1188,Pepe Hernández _____________ in Cuenca from 1992 to 1995. ,1.0,-1.280216235,N,a) lives,1.0,0.0,0.0
+1191,Phil felt thirsty _____ he had finished the race.,3.0,-2.197224586,N,a) however,1.0,0.0,0.0
+1194,Planes is one of the most popular movies for children. It  __________ at Cinemark.,1.0,-1.7867389930000002,N,c) playing now  ,1.0,0.0,0.0
+1197,"Predictably, the students ______________.",3.0,0.6566373677,N,c) did best were not the ones who stayed up all night studying. ,1.0,0.0,0.0
+1200,Richard_____________ at the company if he really wants to keep his job.,1.0,-0.7244242833,N,c) would talking to those people,1.0,0.0,0.0
+1203,"Robert: Have you ever been to Paris?<br>Lucy: No, but ________ next year with my parents.<br>",1.0,3.305630901,N,c) I go,1.0,0.0,0.0
+1206,Sam ________________________  I was upset.,3.0,-3.160414578,N,b. ask if,1.0,0.0,0.0
+1209,"Samuel has never ________ the metro, a bus or a car. He has always ________ his horse wherever he goes.",2.0,-3.839281562,S,c) taken ridden,1.0,0.0,0.0
+1212,She __________ been here yesterday. John told me he saw her at the bar.,3.0,4.276741674,S,c) couldn&#146;t have,1.0,0.0,0.0
+1215,She can&#146;t _____________ hiking because she&#146;s sick.,1.0,-1.564421099,N,c) to go,1.0,0.0,0.0
+1218,She wanted to buy a scarf _______ .<br>,3.0,-1.772655954,N,c) that it would complement her blue eyes.,1.0,0.0,0.0
+1221,Sofia didn&#146;t _____________ anything for breakfast this morning.,1.0,-2.5859398380000003,N,c) eats,1.0,0.0,0.0
+1224,The answers ________.,3.0,1.713415842,S,c) you can find in the back of the book are sometimes incorrect.,1.0,0.0,0.0
+1227,The au-pair _____________________  to strangers.,3.0,-0.7072652895,N,b. told to me to take care,1.0,0.0,0.0
+1230,The chairman of News International said that in New Orleans ________ bad information came from bloggers.,3.0,2.740383634,N,c) several,1.0,0.0,0.0
+1233,"________ the evidence is detailed, conclusive, and corroborated by multiple sources.",3.0,1.13450291,N,c) Many of,1.0,0.0,0.0
+1236,The flight attendant __________________ fasten our safety belts.,3.0,3.682359858,N,c. told to us,1.0,0.0,0.0
+1239,The food in Japan is expensive. It ___ a lot to live there.<br><br>,1.0,0.6680635161999999,N,a) cost,1.0,0.0,0.0
+1242,Their job is great because they ___ a lot of people.<br><br>,1.0,1.4658584069999998,N,c) meets,1.0,0.0,0.0
+1245,"The kids didn&#146;t study. _____, they failed the course.",3.0,-1.201456731,S,a) Therefore,1.0,0.0,0.0
+1248,The mail carrier told us _____________ looking for the address for a long time.,3.0,2.050619798,S,c. he had been,1.0,0.0,0.0
+1251,"The night before the assignment was due, John ___________as much as possible on the topic, but there wasn&#146;t enough time.",2.0,2.565512716,N,c) try to read,1.0,0.0,0.0
+1254,The passerby __________________ the paramedics.,3.0,1.72571234,N,a. advised call,1.0,0.0,0.0
+1257,"The police were not able to find evidence against her, _____.",3.0,-1.3767623690000002,N,c) surprised no one who knows her well.,1.0,0.0,0.0
+1260,The sea level __________ if the planet ________ hotter.,2.0,-0.4347772309,N,b) rise / will get,1.0,0.0,0.0
+1263,The US movie industry has made attempts to sell _______ movies online.,3.0,-1.78187814,S,a) some,1.0,0.0,0.0
+1266,"________ the victims recognized him as the thief. Therefore, he was released right away.",3.0,-1.642492492,S,c) None of,1.0,0.0,0.0
+1269,"They ________________ be away for the weekend, but I&#146;m not sure.",2.0,-0.897615133,N,c) must,1.0,0.0,0.0
+1272,They _____________the dishes while the kids ______________.,2.0,-1.130852453,S,c) were doing / were playing,1.0,0.0,0.0
+1275,This ________________ be the right answer. It's in the book.,2.0,2.444399203,S,c) must,1.0,0.0,0.0
+1278,This case is very difficult! ________________,2.0,0.6185325417,N,"a) May you help me with it, please?",1.0,0.0,0.0
+1281,This movie is boring as hell. Look! Even those guys______________,1.0,-1.947269361,S,c)are sleeping.,1.0,0.0,0.0
+1284,"This room is totally untidy, I&#146;m going to_________________ it.",3.0,-0.2234029654,S,c) have the kids organize ,1.0,0.0,0.0
+1287,This situation is very uncomfortable. ____________  to Jim about it?,1.0,0.6365999322,S,c) Should I talk,1.0,0.0,0.0
+1290,"This year, I would like _________Niagara Falls.",1.0,0.5798329153,S,c) to visit,1.0,0.0,0.0
+1293,Those windows are very dirty. I think ________,1.0,-2.7059390060000004,N,a) you would washing them.,1.0,0.0,0.0
