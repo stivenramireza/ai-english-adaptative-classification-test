@@ -59,7 +59,8 @@ class CatPre(object):
         all_items = self.__part(part).index.values
         curr_items = np.array(self.__get_elements_by_part(part))
         all_items = all_items // 3
-        return all_items[np.logical_not(np.isin(all_items, np.array([])))].tolist()
+        print(curr_items)
+        return all_items[np.logical_not(np.isin(all_items, curr_items))].tolist()
     
     def __get_last_asked(self):
         last = len(self.administered_items) - 1
