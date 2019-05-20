@@ -14,8 +14,11 @@ class CAT:
         self.response_vector = []
         self.dataset = None
         self.items = None
+        self.clusters = None
         self.load_data()
         self.load_items()
+        #print("######################## Data #########################")
+        #print(self.dataset.Dificultad.head(10))
         self.initializer = RandomInitializer()
         self.estimator = DifferentialEvolutionEstimator((min(self.items[:,1]), max(self.items[:, 1])))
         self.stopper = MaxItemStopper(self.MAX_QUESTIONS)
@@ -31,7 +34,7 @@ class CAT:
         self.parts = []
     def get_dataset_size(self):
         return int(len(self.dataset) / self.MAX_RESPONSES)
-    def load_data(self, path1 = './data/easy_dataset_1.csv', path2 = './data/easy_dataset.csv'):
+    def load_data(self, path1 = './data/easy_dataset_12.csv', path2 = './data/easy_dataset_11.csv'):
         self.dataset = pd.read_csv(path1)
         self.dataset1 = pd.read_csv(path2)
     def set_value(self, next_item, next_response, administered_items=None, response_vector=None):
@@ -52,6 +55,7 @@ class CAT:
             #self.cnt += 1
         return administered_items, response_vector
     def obtain_question(self, n_item):
+        #print(n_item)
         question = self.dataset1['PREGUNTA'][n_item * 3]
         return question
     def obtain_responses(self, n_item):
@@ -97,12 +101,21 @@ class CAT:
     def load_items(self):
         #sz = int(len(self.dataset) / self.MAX_RESPONSES)
         sz = len(self.dataset)
-        self.items = np.ones((sz, 1))
-        self.items = np.append(self.items, np.unique(self.dataset['Dificultad']).reshape(sz, 1), axis=1)
+        self.items = np.array([0.4]*sz)
+        self.items = np.reshape(self.items, (sz, 1))
+        #print(np.unique(self.dataset.Dificultad).reshape(sz, 1))
+        self.clusters = [1]*len(self.items)
+        for i in range(len(self.dataset)):
+            self.clusters[i] = int(self.dataset.get_value(i, 'Parte'))
+        self.items = np.append(self.items, np.array(self.dataset['Dificultad']).reshape(sz, 1), axis=1)
         self.items = np.append(self.items, np.zeros((sz, 1)), axis=1)
         self.items = np.append(self.items, np.zeros((sz, 1)), axis=1)
+        #self.items = np.append(self.items, np.array(self.dataset['Dificultad']).reshape(sz, 1), axis=1)
+        #self.items
+        #print(self.items[0:10])
         #self.items = np.append(self.items, np.zeros((sz, 1)), axis=1)
     def next_item(self, n_item = -1, cur_response=None):
+        print(f"Parte: %d\tPregunta:%s\n" %(self.get_item_part(n_item), self.obtain_question(n_item)))
         if n_item != -1 and cur_response != None:
             self.administered_items.append(n_item)
             self.response_vector.append(cur_response)
@@ -117,22 +130,23 @@ class CAT:
                                     est_theta = self.cur_est_theta)
         return n_item
     def set_current_test_status(self, ai, rv, ps, n_item, n_response):
-        _co = self.obtain_correct_option(n_item)
-        _tru_ = (_co == n_response)
+        #_co = self.obtain_correct_option(n_item)
+        #_tru_ = (_co == n_response)
         _ai = self.get_int_array(ai)
         _rv = self.get_boolean_array(rv)
         _ps = self.get_int_array(ps)
-        _ai, _rv = self.set_value(n_item, _tru_, _ai, _rv)
-        _ps = self.set_item_part(n_item, n_response, _ps)
+        #_ai, _rv = self.set_value(n_item, _tru_, _ai, _rv)
+        #_ps = self.set_item_part(n_item, n_response, _ps)
         self.administered_items = _ai
         self.response_vector = _rv
         self.parts = _ps
+        print((self.parts, self.response_vector, self.administered_items))
     def ask(self, n_item=-1, n_reponse=None, cur_est_theta = None):
         if cur_est_theta != None:
             self.cur_est_theta = cur_est_theta
         nn_item = 0
         _tru_ = False
-        if n_item != -1 and n_reponse != None:
+        if True:
             _co = self.obtain_correct_option(n_item)
             _tru_ = (_co == n_reponse)
             nn_item = self.next_item(n_item = n_item, cur_response = _tru_)
@@ -152,9 +166,9 @@ class CAT:
     def get_current_test_status(self):
         return (
             self.cur_est_theta,
-            self.administered_items[0:],
-            self.response_vector[0:],
-            self.parts[0:]
+            self.administered_items,
+            self.response_vector,
+            self.parts
         )
     def get_statistics(self):
         _, __, ___ = 0, 0, 0
@@ -176,6 +190,8 @@ class CAT:
         for x in list(_):
             treat.append(bool(x))
         return treat
+    def get_part_1(self):
+        return self.dataset[self.dataset.Parte == 1.0]
     def get_int_array(self, _):
         treat = []
         for x in list(_):

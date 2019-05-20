@@ -3,6 +3,7 @@ from flask_restplus import Resource, Api, fields, marshal
 from flask_restplus import reqparse
 import model
 import cat
+import cat_pre
 import numpy as np
 
 
@@ -10,7 +11,7 @@ app = Flask(__name__)
 api = Api(app)
 
 _model = model.Model()
-_cat = cat.CAT()
+_cat = cat_pre.CatPre()
 
 
 quest_res_model = {
@@ -27,26 +28,32 @@ class HelloWorld(Resource):
 @api.route('/test/prestart')
 class PreStart(Resource):
     def get(self):
-        _cat = cat.CAT()
+        _cat = cat_pre.CatPre()
         # Choose a random ability level for the current Student.
-        theta = np.random.uniform(low=-6, high=6)
+        #theta = np.random.uniform(low=-1, high=0.3)
         # According to te previous selected random ability choose the next item to be exposed.
-        n_item = np.random.randint(_cat.get_dataset_size() - 1)
-        idx = np.random.randint(2)
+        #part1 = _cat.get_part_1()
+        #idxs = part1.index
+        #n_item_p = idxs[np.random.randint(len(idxs))] // 3
+        #print(n_item_p)
+        #idx = np.random.randint(2)
         # Assume a uniform random response for the given question.
-        response = [True, False][idx]
-        _, n_item, quest, responses, _ = _cat.ask(n_item, response, theta)
-        cur_est_theta, administered_items, response_vector, parts = _cat.get_current_test_status()
+        #response = [True, False][idx]
+        #_, n_item, quest, responses, _ = _cat.ask(n_item_p, response, theta)
+        #print("Ok")
+        #cur_est_theta, administered_items, response_vector, parts = _cat.get_current_test_status()
+        #print("Ok1")
         # Send the new random item to the Student.
+        ai, rv, ps, q, r, ni = _cat.next_item()
         data = {
             'question': {
-                'n_item': int(n_item),
-                'title': quest,
-                'responses': [responses[0], responses[1], responses[2]],
-                'ability': cur_est_theta,
-                'administered_items': administered_items,
-                'response_vector': response_vector,
-                'parts': parts
+                'n_item': int(ni),
+                'title': q,
+                'responses': [r[0], r[1], r[2]],
+                'ability': 0.0,
+                'administered_items': ai,
+                'response_vector': rv,
+                'parts': ps
             }
         }
         return data
@@ -68,19 +75,17 @@ class NextQuestion(Resource):
         administered_items = args['administered_items']
         response_vector = args['response_vector']
         parts = args['parts']
-        print(ability)
-        _cat.set_current_test_status(administered_items, response_vector, parts, n_item, response)
-        _, n_item, quest, responses, _ = _cat.ask(n_item=-1, n_reponse=None, cur_est_theta=ability)
-        cur_est_theta, administered_items, response_vector, parts = _cat.get_current_test_status()
+        _cat.set_current_test_status(administered_items, response_vector, parts)
+        ai, rv, ps, q, r, ni = _cat.next_item(n_item, response)
         data = {
             'question': {
-                'n_item': int(n_item),
-                'title': quest,
-                'responses': [responses[0], responses[1], responses[2]],
-                'ability': cur_est_theta,
-                'administered_items': administered_items,
-                'response_vector': response_vector,
-                'parts': parts
+                'n_item': int(ni),
+                'title': q,
+                'responses': [r[0], r[1], r[2]],
+                'ability': 0.0,
+                'administered_items': ai,
+                'response_vector': rv,
+                'parts': ps
             }
         }
         return data
@@ -119,8 +124,9 @@ class StatisticsLevel(Resource):
         }
 
 if __name__ == "__main__":
-    _model.train()
-    _model.save_model()
+    
+    #_model.train()
+    #_model.save_model()
     _model.load_model()
-    print(_model.predict([[2.5, 3.7, 4]]))
+    #print(_model.predict([[2.5, 3.7, 4]]))
     app.run(debug=True, port=5001, host='0.0.0.0')
