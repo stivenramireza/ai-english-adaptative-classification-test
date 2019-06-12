@@ -43,6 +43,7 @@ RUN chmod 644 app.py
 EXPOSE 5001
 
 # Automatically returns data
+RUN apt-get install cron
 RUN chmod +x ./script.sh
 RUN ./script.sh
 
