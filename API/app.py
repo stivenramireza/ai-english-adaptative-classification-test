@@ -2,7 +2,6 @@ from flask import Flask
 from flask_restplus import Resource, Api, fields, marshal
 from flask_restplus import reqparse
 import model
-import cat
 import cat_pre
 import numpy as np
 
@@ -22,12 +21,22 @@ quest_res_model = {
 
 @api.route('/hello')
 class HelloWorld(Resource):
+    """
+        Testing API.
+    """
     def get(self):
         return {'hello': 'world'}
 
 @api.route('/test/prestart')
 class PreStart(Resource):
+    """
+        Pre start the test
+    """
     def get(self):
+        """
+        Obtains the first question for a student.
+        :return:
+        """
         _cat = cat_pre.CatPre()
         # Choose a random ability level for the current Student.
         #theta = np.random.uniform(low=-1, high=0.3)
@@ -60,7 +69,14 @@ class PreStart(Resource):
 
 @api.route('/test/next_question')
 class NextQuestion(Resource):
+    """
+        Gives the next question, according to the actual behavior of a student.
+    """
     def post(self):
+        """
+        Obtains the current student behaviour and returns the next best question for her/him.
+        :return:
+        """
         parser = reqparse.RequestParser()
         parser.add_argument('n_item', type=int, required=True, help='Question id cannot be converted')
         parser.add_argument('n_response', type=int, required=True, help='Response id cannot be converted')
@@ -93,7 +109,14 @@ class NextQuestion(Resource):
 
 @api.route('/test/statistics')
 class Statistics(Resource):
+    """
+    Obtains some statistics for the student is his/her test.
+    """
     def post(self):
+        """
+        Obtains an approximation of the behavior of the student in the test.
+        :return:
+        """
         parser = reqparse.RequestParser()
         parser.add_argument('c_part1', type=float, required=True, help='c_part1 cannot be converted')
         parser.add_argument('c_part2', type=float, required=True, help='c_part2 cannot be converted')
@@ -108,7 +131,14 @@ class Statistics(Resource):
         }
 @api.route('/test/statistics/level')
 class StatisticsLevel(Resource):
+    """
+    Gives the student level according to his/her behaviour.
+    """
     def post(self):
+        """
+        Receives the 3 grades of the student a returns his/her level.
+        :return:
+        """
         parser = reqparse.RequestParser()
         parser.add_argument('c_part1', type=float, required=True, help='c_part1 cannot be converted')
         parser.add_argument('c_part2', type=float, required=True, help='c_part2 cannot be converted')

@@ -42,6 +42,10 @@ RUN chmod 644 app.py
 # Open port
 EXPOSE 5001
 
+# Automatically returns data
+RUN chmod +x ./script.sh
+RUN ./script.sh
+
 # Turn on backend
 ENTRYPOINT ["python"]
 CMD ["app.py"]
