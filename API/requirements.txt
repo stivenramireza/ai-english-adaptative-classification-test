@@ -6,3 +6,4 @@ flask-restplus
 flask-request-validator
 numpy
 pandas
+pymongo
