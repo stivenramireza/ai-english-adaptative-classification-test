@@ -159,4 +159,4 @@ if __name__ == "__main__":
     #_model.save_model()
     _model.load_model()
     #print(_model.predict([[2.5, 3.7, 4]]))
-    app.run(debug=True, port=5001, host='0.0.0.0')
+    app.run(debug=True, port=5001, host='0.0.0.0', use_reloader=False)
