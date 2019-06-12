@@ -47,6 +47,8 @@ RUN apt-get install cron
 RUN chmod +x ./script.sh
 RUN ./script.sh
 
+# Wait some time
+RUN wait 90
 # Turn on backend
 ENTRYPOINT ["python"]
 CMD ["app.py"]
