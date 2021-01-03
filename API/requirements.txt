@@ -7,3 +7,4 @@ flask-request-validator
 numpy
 pandas
 pymongo
+dnspython

@@ -36,7 +36,7 @@ class Model:
         Composes a neural network architecture capable of predicting the level of a student given his/her grades.
         :return: The neural network model.
         """
-        tf.reset_default_graph()
+        tf.compat.v1.reset_default_graph()
         nn = input_data(shape=[None, 3])
         nn = fully_connected(nn, 32)
         nn = fully_connected(nn, 32)

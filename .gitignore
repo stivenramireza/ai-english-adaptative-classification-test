@@ -1,3 +1,6 @@
 
 DeepLearning/.vscode/settings.json
 DeepLearning/testAndGrades2.xlsx
+API/data/easy_dataset_12.csv
+API/__pycache__/
+API/credentials.py

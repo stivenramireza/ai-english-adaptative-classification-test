@@ -1,23 +1,5 @@
-FROM ubuntu:latest
-MAINTAINER Anderson Grajales "agrajal7@eafit.edu.co"
-
-# Ubuntu setup
-RUN apt update --yes
-RUN apt install wget bzip2 ca-certificates libglib2.0-0 libxext6 libsm6 libxrender1 --yes
-RUN apt install git mercurial subversion --yes
-
-# Get Miniconda
-RUN wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
-RUN bash ~/miniconda.sh -b -p /miniconda
-
-ENV PATH=/miniconda/bin:${PATH}
-RUN echo $PATH
-
-RUN conda update conda --yes
-RUN conda config --add channels conda-forge
-RUN conda config --add channels contango
-
-RUN which pip
+FROM python:3.6
+LABEL MAINTAINER="Anderson Grajales"
 
 COPY requirements.txt /app/requirements.txt
 WORKDIR /app
@@ -41,11 +23,6 @@ RUN which python3
 RUN chmod 644 app.py
 # Open port
 EXPOSE 5001
-
-# Automatically returns data
-RUN apt-get install cron
-RUN chmod +x ./script.sh
-RUN ./script.sh
 
 # Turn on backend
 ENTRYPOINT ["python"]
