@@ -24,12 +24,12 @@ def main():
     # CONVERTS TO DATAFRAME
     df = pd.DataFrame(list(cols.find({})))
     # REMOVES DB ID
-    if '_id' in df:
-        del df['_id']
-    if 'updatedAt' in df:
-        del df['updatedAt']
+    del df['_id']
+    del df['updatedAt']
+    del df['createdAt']
+    del df['__v']
     # CHANGE COLUMNS NAMES FOR THE MODEL
-    df.columns = ['DIFICULTAD', 'N_ITEM', 'TEXTO', 'Parte', 'PREGUNTA', 'OPCION_CORRECTA']
+    df.columns = ['PREGUNTA', 'N_ITEM', 'Parte', 'DIFICULTAD', 'OPCION_CORRECTA', 'TEXTO']
     # PATH TO SAVE THE QUESTIONS
     path = './data/easy_dataset_12.csv'
     if os.path.exists(path):
