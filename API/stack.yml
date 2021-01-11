@@ -1,0 +1,21 @@
+version: '3'
+services:
+  eaci_api:
+    image: eaci_api:latest
+    networks:
+      - traefik-public
+    ports:
+      - 5001
+    deploy:
+      labels:
+        - traefik.enable=true
+        - traefik.tags=traefik-public
+        - traefik.port=5001
+        - traefik.frontend.rule=Host:api.eaci.com
+        - traefik.docker.network=traefik-public
+        - traefik.redirectorservice.frontend.entryPoints=http
+        - traefik.redirectorservice.frontend.redirect.entryPoint=https
+        - traefik.webservice.frontend.entryPoints=https
+networks:
+  traefik-public:
+    external: true
