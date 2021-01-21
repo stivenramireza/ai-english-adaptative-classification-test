@@ -5,6 +5,7 @@ import tflearn
 from tflearn.data_utils import load_csv
 import csv
 
+# Definición de variables de prueba
 data, labels = load_csv('testAndGrades.csv', has_header=True, 
 target_column=0, categorical_labels=True, n_classes=10)
 
