@@ -11,7 +11,7 @@ services:
         - traefik.enable=true
         - traefik.tags=traefik-public
         - traefik.port=5001
-        - traefik.frontend.rule=Host:api.eaci.com
+        - traefik.frontend.rule=Host:api.stivenramireza.com;PathPrefixStrip:/eaci
         - traefik.docker.network=traefik-public
         - traefik.redirectorservice.frontend.entryPoints=http
         - traefik.redirectorservice.frontend.redirect.entryPoint=https
