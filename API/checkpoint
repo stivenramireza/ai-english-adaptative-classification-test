@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\ASUS\\Documents\\projects\\PI2\\test\\AI_English_Adaptative_Classification_Test\\API\\nnmodel.tflearn"
-all_model_checkpoint_paths: "C:\\Users\\ASUS\\Documents\\projects\\PI2\\test\\AI_English_Adaptative_Classification_Test\\API\\nnmodel.tflearn"
+model_checkpoint_path: "/home/stivenramireza/Codes/stivenramireza/ai-english-adaptative-classification-test/API/nnmodel.tflearn"
+all_model_checkpoint_paths: "/home/stivenramireza/Codes/stivenramireza/ai-english-adaptative-classification-test/API/nnmodel.tflearn"
