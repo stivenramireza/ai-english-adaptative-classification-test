@@ -158,7 +158,7 @@ class StatisticsLevel(Resource):
 
 if __name__ == "__main__":
     
-    _model.train()
-    _model.save_model()
+    # _model.train()
+    # _model.save_model()
     _model.load_model()
     app.run(debug=True, port=5001, host='0.0.0.0', use_reloader=False)
